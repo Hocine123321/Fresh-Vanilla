@@ -1,0 +1,4816 @@
+{
+  "generated_from_versions": [
+    "2.1",
+    "2.2",
+    "2.2",
+    "3.0",
+    "3.0",
+    "3.1",
+    "3.1",
+    "3.2",
+    "3.2",
+    "3.3",
+    "3.3",
+    "3.4",
+    "3.4",
+    "4.0",
+    "4.1",
+    "4.2",
+    "4.3",
+    "4.4",
+    "4.5"
+  ],
+  "latest_release": "4.5",
+  "mods": [
+    {
+      "project_id": "GDnm1VHj",
+      "slug": "compatibility-blooming-biosphere-tectonic",
+      "title": "[Compatibility] Blooming Biosphere & Tectonic",
+      "description": "Adds compatibility between Blooming Biosphere and Tectonic v3",
+      "categories": [],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/compatibility-blooming-biosphere-tectonic",
+      "appeared_in": [
+        "4.1",
+        "4.2",
+        "4.3"
+      ],
+      "first_version": "4.1",
+      "last_version": "4.3",
+      "in_latest": false
+    },
+    {
+      "project_id": "hn1ivTT7",
+      "slug": "aa4-structure-markers",
+      "title": "AA4 Structure Markers",
+      "description": "Antique Atlas 4 addon. New markers for structures from various mods.",
+      "categories": [
+        "gui",
+        "utility"
+      ],
+      "project_type": "resourcepack",
+      "url": "https://modrinth.com/resourcepack/aa4-structure-markers",
+      "appeared_in": [
+        "4.5"
+      ],
+      "first_version": "4.5",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "3ufwT9JF",
+      "slug": "ad-astra",
+      "title": "Ad Astra",
+      "description": "Live long and prosper, Ad Astra!",
+      "categories": [
+        "adventure",
+        "technology",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/ad-astra",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "2.1",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "CFX9ftUJ",
+      "slug": "advanced-netherite",
+      "title": "Advanced Netherite",
+      "description": "A vanilla and add-on friendly, open-source mod that adds in more tiers of Netherite!",
+      "categories": [
+        "adventure",
+        "equipment",
+        "library"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/advanced-netherite",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "2.1",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "9NM0dXub",
+      "slug": "advancement-plaques",
+      "title": "Advancement Plaques",
+      "description": "Replace those boring advancement popups with something flashier.",
+      "categories": [
+        "adventure",
+        "game-mechanics",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/advancement-plaques",
+      "appeared_in": [
+        "2.1"
+      ],
+      "first_version": "2.1",
+      "last_version": "2.1",
+      "in_latest": false
+    },
+    {
+      "project_id": "defK2XM3",
+      "slug": "adventurez",
+      "title": "AdventureZ",
+      "description": "adds a new endboss and other creatures",
+      "categories": [
+        "mobs"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/adventurez",
+      "appeared_in": [
+        "2.1"
+      ],
+      "first_version": "2.1",
+      "last_version": "2.1",
+      "in_latest": false
+    },
+    {
+      "project_id": "jhl28YkY",
+      "slug": "alloy-forgery",
+      "title": "Alloy Forgery",
+      "description": "Forge some alloys",
+      "categories": [
+        "library",
+        "technology",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/alloy-forgery",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "ulloLmqG",
+      "slug": "another-furniture",
+      "title": "Another Furniture",
+      "description": "Vanilla-styled Minecraft furniture mod.",
+      "categories": [
+        "decoration",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/another-furniture",
+      "appeared_in": [
+        "4.5"
+      ],
+      "first_version": "4.5",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "Y5Ve4Ui4",
+      "slug": "antique-atlas-4",
+      "title": "Antique Atlas 4",
+      "description": "A hand-drawn clientside world map, with map sharing, structure discovery, and less!\nA map frontend for Surveyor based on hunternif's Antique Atlas.",
+      "categories": [
+        "adventure",
+        "social",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/antique-atlas-4",
+      "appeared_in": [
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "4.2",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "k23mNPhZ",
+      "slug": "aquamirae",
+      "title": "Aquamirae",
+      "description": "Ship graveyard with terrible deep sea creatures!",
+      "categories": [
+        "adventure",
+        "mobs",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/aquamirae",
+      "appeared_in": [
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "3.0",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "QgooUXAJ",
+      "slug": "archers",
+      "title": "Archers (RPG Series)",
+      "description": "\ud83c\udff9 Draw, Release, Conquer - Master the art of Archery!",
+      "categories": [
+        "adventure",
+        "equipment",
+        "game-mechanics"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/archers",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "2.1",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "lhGA9TYQ",
+      "slug": "architectury-api",
+      "title": "Architectury API",
+      "description": "An intermediary api aimed to ease developing multiplatform mods.",
+      "categories": [
+        "library"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/architectury-api",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "pduQXSbl",
+      "slug": "azurelib-armor",
+      "title": "AzureLib Armor",
+      "description": "A striped down Azurelib just for Armor!",
+      "categories": [
+        "library",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/azurelib-armor",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "2.1",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "g96Z4WVZ",
+      "slug": "badoptimizations",
+      "title": "BadOptimizations",
+      "description": "Optimization mod that focuses on things other than rendering",
+      "categories": [
+        "optimization"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/badoptimizations",
+      "appeared_in": [
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "4.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "MS1ZMyR7",
+      "slug": "better-ping-display-fabric",
+      "title": "Better Ping Display [Fabric]",
+      "description": "Adds a configurable numerical ping display to the player list",
+      "categories": [
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/better-ping-display-fabric",
+      "appeared_in": [
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "3.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "G1s2WpNo",
+      "slug": "better-third-person",
+      "title": "Better Third Person",
+      "description": "Improves third person camera view.",
+      "categories": [
+        "game-mechanics"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/better-third-person",
+      "appeared_in": [
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "4.0",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "dGVX5JbJ",
+      "slug": "better-village",
+      "title": "Better Villages",
+      "description": "This mod enhances the villages in Minecraft by improving existing structure, making them feel more alive and engaging to explore.",
+      "categories": [
+        "adventure",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/better-village",
+      "appeared_in": [
+        "4.0"
+      ],
+      "first_version": "4.0",
+      "last_version": "4.0",
+      "in_latest": false
+    },
+    {
+      "project_id": "Ds9FyUc7",
+      "slug": "blooming-biosphere",
+      "title": "Blooming Biosphere",
+      "description": "An overworld biome overhaul, enhancing vanilla's feel with new detail and vegetation",
+      "categories": [
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/blooming-biosphere",
+      "appeared_in": [
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "4.0",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "Xw7lTsbM",
+      "slug": "blossomlib",
+      "title": "BlossomLib",
+      "description": "Library mod for Blossom-series Fabric mods",
+      "categories": [
+        "library",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/blossomlib",
+      "appeared_in": [
+        "2.2"
+      ],
+      "first_version": "2.2",
+      "last_version": "2.2",
+      "in_latest": false
+    },
+    {
+      "project_id": "Y25EUH1s",
+      "slug": "blossomtpa",
+      "title": "BlossomTpa",
+      "description": "Blossom-series /tpa command and utilities",
+      "categories": [
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/blossomtpa",
+      "appeared_in": [
+        "2.2"
+      ],
+      "first_version": "2.2",
+      "last_version": "2.2",
+      "in_latest": false
+    },
+    {
+      "project_id": "du3UfiLL",
+      "slug": "bosses-of-mass-destruction",
+      "title": "Bosses of Mass Destruction",
+      "description": "Adds boss fights to minecraft",
+      "categories": [
+        "adventure",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/bosses-of-mass-destruction",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "2u6LRnMa",
+      "slug": "botarium",
+      "title": "Botarium",
+      "description": "A crossplatform API for devs that makes transfer and storage of items, fluids and energy easier, as well as some other helpful things",
+      "categories": [
+        "library"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/botarium",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "2.1",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "K01OU20C",
+      "slug": "cardinal-components-api",
+      "title": "Cardinal Components API",
+      "description": "A data attachment API that is easy, modular, and extremely fast.",
+      "categories": [
+        "library"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/cardinal-components-api",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "joEfVgkn",
+      "slug": "carry-on",
+      "title": "Carry On",
+      "description": "Carry On allows you to pick up Tile Entities and Mobs and carry them around!",
+      "categories": [
+        "game-mechanics",
+        "storage",
+        "transportation"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/carry-on",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "jawg7zT1",
+      "slug": "cave-dust",
+      "title": "Cave Dust",
+      "description": "Dust is a Minecraft mod that adds the white ash particle from the Basalt Deltas biome to the underground to simulate dust!",
+      "categories": [
+        "decoration"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/cave-dust",
+      "appeared_in": [
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "4.0",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "DnNYdJsx",
+      "slug": "chatanimation",
+      "title": "Chat Animation [Smooth Chat]",
+      "description": "Makes chat messages appear with a smooth animation.",
+      "categories": [
+        "decoration",
+        "social"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/chatanimation",
+      "appeared_in": [
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "3.0",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "Wb5oqrBJ",
+      "slug": "chat-heads",
+      "title": "Chat Heads",
+      "description": "See who you're chatting with!",
+      "categories": [
+        "decoration",
+        "social"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/chat-heads",
+      "appeared_in": [
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "4.0",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "fgmhI8kH",
+      "slug": "ct-overhaul-village",
+      "title": "ChoiceTheorem's Overhauled Village",
+      "description": "Enhances and creates new villages and pillager outposts, that perfectly fit into your Minecraft world.",
+      "categories": [
+        "adventure",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/ct-overhaul-village",
+      "appeared_in": [
+        "2.2"
+      ],
+      "first_version": "2.2",
+      "last_version": "2.2",
+      "in_latest": false
+    },
+    {
+      "project_id": "fALzjamp",
+      "slug": "chunky",
+      "title": "Chunky",
+      "description": "Pre-generates chunks, quickly and efficiently",
+      "categories": [
+        "optimization",
+        "utility",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/chunky",
+      "appeared_in": [
+        "2.2",
+        "4.5"
+      ],
+      "first_version": "2.2",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "9s6osm5g",
+      "slug": "cloth-config",
+      "title": "Cloth Config API",
+      "description": "Configuration Library for Minecraft Mods",
+      "categories": [
+        "library"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/cloth-config",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "HVnmMxH1",
+      "slug": "complementary-reimagined",
+      "title": "Complementary Shaders - Reimagined",
+      "description": "Preserving the elements of Minecraft with exceptional quality, detail, and performance.",
+      "categories": [
+        "colored-lighting",
+        "vanilla-like"
+      ],
+      "project_type": "shader",
+      "url": "https://modrinth.com/shader/complementary-reimagined",
+      "appeared_in": [
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3"
+      ],
+      "first_version": "4.0",
+      "last_version": "4.3",
+      "in_latest": false
+    },
+    {
+      "project_id": "iSCGCCV1",
+      "slug": "completionists-index",
+      "title": "Completionist's Index",
+      "description": "An index for collecting every single block and item in the game. Adventurers behold!",
+      "categories": [
+        "adventure",
+        "management",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/completionists-index",
+      "appeared_in": [
+        "4.5"
+      ],
+      "first_version": "4.5",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "rLLJ1OZM",
+      "slug": "coroutil",
+      "title": "CoroUtil",
+      "description": "Shared library mod for Corosus's mods",
+      "categories": [
+        "library"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/coroutil",
+      "appeared_in": [
+        "2.1",
+        "2.2"
+      ],
+      "first_version": "2.1",
+      "last_version": "2.2",
+      "in_latest": false
+    },
+    {
+      "project_id": "OsZiaDHq",
+      "slug": "creativecore",
+      "title": "CreativeCore",
+      "description": "A core mod",
+      "categories": [
+        "library"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/creativecore",
+      "appeared_in": [
+        "2.1",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "MI1LWe93",
+      "slug": "creeper-overhaul",
+      "title": "Creeper Overhaul",
+      "description": "A mod which overhauls the vanilla creepers!",
+      "categories": [
+        "adventure",
+        "mobs"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/creeper-overhaul",
+      "appeared_in": [
+        "2.1",
+        "2.2"
+      ],
+      "first_version": "2.1",
+      "last_version": "2.2",
+      "in_latest": false
+    },
+    {
+      "project_id": "F5ao3BYo",
+      "slug": "crystals-overhauled",
+      "title": "Crystals Overhauled",
+      "description": "Adds beautiful crystals to the game, each with its own set of tools and armor.",
+      "categories": [
+        "decoration",
+        "equipment",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/crystals-overhauled",
+      "appeared_in": [
+        "2.1",
+        "2.2"
+      ],
+      "first_version": "2.1",
+      "last_version": "2.2",
+      "in_latest": false
+    },
+    {
+      "project_id": "o5fhgLeQ",
+      "slug": "minecraft-cursor",
+      "title": "Cursors Extended",
+      "description": "Configurable Minecraft-themed cursors",
+      "categories": [
+        "decoration",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/minecraft-cursor",
+      "appeared_in": [
+        "4.5"
+      ],
+      "first_version": "4.5",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "h3XWIuzM",
+      "slug": "dark-loading-screen",
+      "title": "Dark Loading Screen",
+      "description": "Makes the loading screen darker.",
+      "categories": [
+        "decoration",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/dark-loading-screen",
+      "appeared_in": [
+        "2.1",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "2.1",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "aG78N9Bx",
+      "slug": "dls-creeper",
+      "title": "Dark Loading Screen - Creeper Edition",
+      "description": "A dark themed loading screen with a creeper face.",
+      "categories": [
+        "gui",
+        "simplistic",
+        "tweaks"
+      ],
+      "project_type": "resourcepack",
+      "url": "https://modrinth.com/resourcepack/dls-creeper",
+      "appeared_in": [
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4"
+      ],
+      "first_version": "4.0",
+      "last_version": "4.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "ZfQ3kTvR",
+      "slug": "dashloader",
+      "title": "DashLoader",
+      "description": "Launch at the speed of light.",
+      "categories": [
+        "library",
+        "optimization",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/dashloader",
+      "appeared_in": [
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "3.1",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "fnAffV0n",
+      "slug": "deeperdarker",
+      "title": "Deeper and Darker",
+      "description": "A Minecraft mod which features more blocks, items, armors, and hidden mysteries to complement the Deep Dark biome.",
+      "categories": [
+        "adventure",
+        "mobs",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/deeperdarker",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "2.1",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "tpehi7ww",
+      "slug": "dungeons-and-taverns",
+      "title": "Dungeons and Taverns",
+      "description": "A Structure Datapack adding dungeons, taverns and other structures to find while you explore the world.",
+      "categories": [
+        "adventure",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/dungeons-and-taverns",
+      "appeared_in": [
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.2",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "rYocd2LE",
+      "slug": "dungeons-and-taverns-stronghold-overhaul",
+      "title": "Dungeons and Taverns Stronghold Overhaul",
+      "description": "This Datapack, the Standalone version of Dungeons and Taverns Overhaul of the Stronghold, Overhauls the Stronghold from the ground up With 417 Different rooms and 5 sub stronghold types\nFair warning, your world will Freeze Upon first Structure generation.",
+      "categories": [
+        "adventure",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/dungeons-and-taverns-stronghold-overhaul",
+      "appeared_in": [
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "4.0",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "LQ3K71Q1",
+      "slug": "dynamic-fps",
+      "title": "Dynamic FPS",
+      "description": "Reduce resource usage while Minecraft is in the background, idle, or on battery.",
+      "categories": [
+        "management",
+        "optimization",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/dynamic-fps",
+      "appeared_in": [
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "4.0",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "7YjclEGc",
+      "slug": "dynamic-lights",
+      "title": "Dynamic Lights",
+      "description": "Supported entities and items such as torches, lanterns, or enchanted gear emit light! Server-side!",
+      "categories": [
+        "adventure",
+        "game-mechanics",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/dynamic-lights",
+      "appeared_in": [
+        "2.2",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.2",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "OZBR5JT5",
+      "slug": "easy-anvils",
+      "title": "Easy Anvils",
+      "description": "Overhauled anvils with stored items, fairer costs, and no more frustrating repair penalties.",
+      "categories": [
+        "equipment",
+        "game-mechanics"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/easy-anvils",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "rUgZvGzi",
+      "slug": "eating-animation",
+      "title": "Eating Animation",
+      "description": "A mod that adds sprite animations for edible and drinkable items.",
+      "categories": [
+        "food"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/eating-animation",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "NCKpPR0Z",
+      "slug": "ecologics",
+      "title": "Ecologics",
+      "description": "Simple vanilla biome updates, with fun mobs, blocks, and more!",
+      "categories": [
+        "food",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/ecologics",
+      "appeared_in": [
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "4.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "mSQF1NpT",
+      "slug": "elytra-slot",
+      "title": "Elytra Slot",
+      "description": "Adds accessory support to the elytra so you can fly and wear chest armor at the same time. Formerly known as Curious Elytra and Elytra Trinket.",
+      "categories": [
+        "equipment",
+        "transportation"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/elytra-slot",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "2.1",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "ZJTGwAND",
+      "slug": "endrem",
+      "title": "End Remastered",
+      "description": "Make your journey to the End more Challenging and Engaging with End Remastered!",
+      "categories": [
+        "adventure"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/endrem",
+      "appeared_in": [
+        "2.1",
+        "2.2"
+      ],
+      "first_version": "2.1",
+      "last_version": "2.2",
+      "in_latest": false
+    },
+    {
+      "project_id": "HQsBdHGd",
+      "slug": "edf-remastered",
+      "title": "Ender Dragon Fight Remastered",
+      "description": "A difficulty increase of Minecraft's final boss, with a focus on a somewhat Vanilla feel.",
+      "categories": [
+        "adventure",
+        "game-mechanics",
+        "mobs"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/edf-remastered",
+      "appeared_in": [
+        "2.1"
+      ],
+      "first_version": "2.1",
+      "last_version": "2.1",
+      "in_latest": false
+    },
+    {
+      "project_id": "CUQhzQjg",
+      "slug": "ender-zoology",
+      "title": "Ender Zoology",
+      "description": "Vanilla themed monsters to add some difficulty to the game. A remake of Ender Zoo.",
+      "categories": [
+        "adventure",
+        "mobs"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/ender-zoology",
+      "appeared_in": [
+        "2.1",
+        "2.2"
+      ],
+      "first_version": "2.1",
+      "last_version": "2.2",
+      "in_latest": false
+    },
+    {
+      "project_id": "U5SedJ9S",
+      "slug": "enhanced-boss-bars",
+      "title": "Enhanced Boss Bars",
+      "description": "New improved boss bars!",
+      "categories": [
+        "combat",
+        "entities",
+        "themed"
+      ],
+      "project_type": "resourcepack",
+      "url": "https://modrinth.com/resourcepack/enhanced-boss-bars",
+      "appeared_in": [
+        "3.0",
+        "3.1",
+        "3.4"
+      ],
+      "first_version": "3.0",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "NNAgCjsB",
+      "slug": "entityculling",
+      "title": "Entity Culling",
+      "description": "Using async path-tracing to hide Block-/Entities that are not visible",
+      "categories": [
+        "optimization"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/entityculling",
+      "appeared_in": [
+        "2.1",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "k2ZPuTBm",
+      "slug": "essential",
+      "title": "Essential Mod",
+      "description": "Enhance your Minecraft with one simple mod. Host worlds for free, chat with friends, and so much more!",
+      "categories": [
+        "management",
+        "social",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/essential",
+      "appeared_in": [
+        "3.0",
+        "3.1"
+      ],
+      "first_version": "3.0",
+      "last_version": "3.1",
+      "in_latest": false
+    },
+    {
+      "project_id": "XvcfUGfB",
+      "slug": "eternal-starlight",
+      "title": "Eternal Starlight",
+      "description": "A dimension mod that adds the magical and mysterious starlight dimension.",
+      "categories": [
+        "adventure",
+        "equipment",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/eternal-starlight",
+      "appeared_in": [
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "4.0",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "RV1qfVQ8",
+      "slug": "explorers-compass",
+      "title": "Explorer's Compass",
+      "description": "Allows you to locate structures anywhere in the world.",
+      "categories": [
+        "adventure",
+        "equipment",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/explorers-compass",
+      "appeared_in": [
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "3.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "HSfsxuTo",
+      "slug": "explorify",
+      "title": "Explorify",
+      "description": "A simplistic, vanilla-friendly collection of new structures.",
+      "categories": [
+        "adventure",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/explorify",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "2.1",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "P7dR8mSH",
+      "slug": "fabric-api",
+      "title": "Fabric API",
+      "description": "Lightweight and modular API providing common hooks and intercompatibility measures utilized by mods using the Fabric toolchain.",
+      "categories": [
+        "library"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/fabric-api",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "Ha28R6CL",
+      "slug": "fabric-language-kotlin",
+      "title": "Fabric Language Kotlin",
+      "description": "This is a mod that enables usage of the Kotlin programming language for Fabric mods.",
+      "categories": [
+        "library"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/fabric-language-kotlin",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "WhbRG4iK",
+      "slug": "fallingleaves",
+      "title": "Falling Leaves",
+      "description": "Adds a neat little particle effect to leaf blocks",
+      "categories": [
+        "decoration"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/fallingleaves",
+      "appeared_in": [
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "3.0",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "eUziWqPC",
+      "slug": "fancy-toasts",
+      "title": "Fancy Toasts | Better Advancements",
+      "description": "Overhauls the old advancement toast system",
+      "categories": [
+        "adventure",
+        "decoration",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/fancy-toasts",
+      "appeared_in": [
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "4.4",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "OnlVIpq5",
+      "slug": "zfastnoise",
+      "title": "Fast Noise",
+      "description": "Vanilla Worldgen optimization mod",
+      "categories": [
+        "optimization",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/zfastnoise",
+      "appeared_in": [
+        "4.5"
+      ],
+      "first_version": "4.5",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "RfFxanNh",
+      "slug": "faster-random",
+      "title": "Faster Random",
+      "description": "[NOTE: This mod is now only intended for use with pre-existing Faster Random worlds]",
+      "categories": [
+        "magic",
+        "optimization",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/faster-random",
+      "appeared_in": [
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4"
+      ],
+      "first_version": "4.0",
+      "last_version": "4.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "kCpssoSb",
+      "slug": "fastload",
+      "title": "Fastload",
+      "description": "Modifies how worlds are loaded to speed up loading times.",
+      "categories": [
+        "optimization",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/fastload",
+      "appeared_in": [
+        "2.2"
+      ],
+      "first_version": "2.2",
+      "last_version": "2.2",
+      "in_latest": false
+    },
+    {
+      "project_id": "uXXizFIs",
+      "slug": "ferrite-core",
+      "title": "FerriteCore",
+      "description": "Memory usage optimizations",
+      "categories": [
+        "optimization",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/ferrite-core",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "ohNO6lps",
+      "slug": "forge-config-api-port",
+      "title": "Forge Config API Port",
+      "description": "NeoForge's & Forge's config systems provided to other modding ecosystems. Designed for a multiloader architecture.",
+      "categories": [
+        "library"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/forge-config-api-port",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "5WeWGLoJ",
+      "slug": "forge-config-screens",
+      "title": "Forge Config Screens",
+      "description": "Allows Forge's configs to be configured directly in-game. Quick and easy with a beautiful design!",
+      "categories": [
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/forge-config-screens",
+      "appeared_in": [
+        "2.1",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "2.1",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "tPe4xnPd",
+      "slug": "formations",
+      "title": "Formations (Structure Library)",
+      "description": "Formations adds utilities for structure datapacks!",
+      "categories": [
+        "adventure",
+        "library",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/formations",
+      "appeared_in": [
+        "2.2"
+      ],
+      "first_version": "2.2",
+      "last_version": "2.2",
+      "in_latest": false
+    },
+    {
+      "project_id": "cGvQGRls",
+      "slug": "formations-nether",
+      "title": "Formations Nether",
+      "description": "Formations Nether adds plenty of new structures to the nether!",
+      "categories": [
+        "adventure",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/formations-nether",
+      "appeared_in": [
+        "2.2"
+      ],
+      "first_version": "2.2",
+      "last_version": "2.2",
+      "in_latest": false
+    },
+    {
+      "project_id": "POQ2i9zu",
+      "slug": "friends-and-foes",
+      "title": "Friends&Foes (Fabric/Quilt)",
+      "description": "Adds outvoted and forgotten mobs from the mob vote, expanding on their original concepts and adding new vanilla-like features. The mod includes: Copper Golem, Crab, Glare, Moobloom, Iceologer, Rascal, Tuff Golem, Wildfire, Illusioner, Zombie Horse",
+      "categories": [
+        "adventure",
+        "mobs",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/friends-and-foes",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "p1WH6sHr",
+      "slug": "from-the-fog",
+      "title": "From The Fog",
+      "description": "Enter a world of fear and mystery with From The Fog, a Minecraft mod that brings the legendary Herobrine to life in a spooky and immersive way true to the legend.",
+      "categories": [
+        "adventure",
+        "cursed",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/from-the-fog",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "2.1",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "Ae6qoBj3",
+      "slug": "frostiful",
+      "title": "Frostiful",
+      "description": "A Vanilla+ Freezing Temperature Mod - sister mod of Scorchful!",
+      "categories": [
+        "adventure",
+        "game-mechanics",
+        "magic"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/frostiful",
+      "appeared_in": [
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "4.0",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "hYykXjDp",
+      "slug": "fzzy-config",
+      "title": "Fzzy Config",
+      "description": "Config API with automatic GUIs, powerful validation options, server-client sync, and more!",
+      "categories": [
+        "game-mechanics",
+        "library"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/fzzy-config",
+      "appeared_in": [
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "4.0",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "XIpMGI6r",
+      "slug": "gazebos",
+      "title": "Gazebos (RPG Series)",
+      "description": "\u26f2\ufe0f Village structures hosting small spell libraries",
+      "categories": [
+        "adventure",
+        "magic",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/gazebos",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "2.1",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "8BmcQJ2H",
+      "slug": "geckolib",
+      "title": "Geckolib",
+      "description": "A 3D animation library for entities, blocks, items, armor, and more!",
+      "categories": [
+        "game-mechanics",
+        "library",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/geckolib",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "hl5OLM95",
+      "slug": "geophilic",
+      "title": "Geophilic",
+      "description": "A subtle-ish overhaul of vanilla Overworld biomes! Reworked!",
+      "categories": [
+        "adventure",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/geophilic",
+      "appeared_in": [
+        "2.2"
+      ],
+      "first_version": "2.2",
+      "last_version": "2.2",
+      "in_latest": false
+    },
+    {
+      "project_id": "Heh3BbSv",
+      "slug": "pneumono_gravestones",
+      "title": "Gravestones",
+      "description": "Adds highly configurable Graves that spawn on death to hold your items",
+      "categories": [
+        "game-mechanics",
+        "storage",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/pneumono_gravestones",
+      "appeared_in": [
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "3.0",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "pJmCFF0p",
+      "slug": "handcrafted",
+      "title": "Handcrafted",
+      "description": "Make your house a home!",
+      "categories": [
+        "decoration",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/handcrafted",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4"
+      ],
+      "first_version": "2.1",
+      "last_version": "4.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "uHWrqYcS",
+      "slug": "hang-glider",
+      "title": "Hang Glider",
+      "description": "Soar through the skies and explore the world's beauty with your brand-new hang glider!",
+      "categories": [
+        "adventure",
+        "equipment",
+        "transportation"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/hang-glider",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "XCIMrYn0",
+      "slug": "hearths",
+      "title": "Hearths",
+      "description": "A handful of additions to vanilla Nether biomes",
+      "categories": [
+        "adventure",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/hearths",
+      "appeared_in": [
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3"
+      ],
+      "first_version": "4.0",
+      "last_version": "4.3",
+      "in_latest": false
+    },
+    {
+      "project_id": "U64ZYLjC",
+      "slug": "herdspanic",
+      "title": "HerdsPanic",
+      "description": "Herds just start to panic when a member panics",
+      "categories": [
+        "game-mechanics"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/herdspanic",
+      "appeared_in": [
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "3.1",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "24CSPS1E",
+      "slug": "horse-expert",
+      "title": "Horse Expert",
+      "description": "You want to know what your horses are truly capable of? Check out their statistics!",
+      "categories": [
+        "equipment",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/horse-expert",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "2.1",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "5faXoLqX",
+      "slug": "iceberg",
+      "title": "Iceberg",
+      "description": "A modding library that contains new events, helpers, and utilities to make modder's lives easier.",
+      "categories": [
+        "library"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/iceberg",
+      "appeared_in": [
+        "2.1",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "jSV9w0J5",
+      "slug": "illager-invasion",
+      "title": "Illager Invasion",
+      "description": "The illagers are back! Be ready to fight new foes. A port of Illager Expansion.",
+      "categories": [
+        "adventure",
+        "mobs",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/illager-invasion",
+      "appeared_in": [
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "3.0",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "5ZwdcRci",
+      "slug": "immediatelyfast",
+      "title": "ImmediatelyFast",
+      "description": "Speed up immediate mode rendering in Minecraft",
+      "categories": [
+        "optimization"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/immediatelyfast",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "x3HZvrj6",
+      "slug": "immersive-aircraft",
+      "title": "Immersive Aircraft",
+      "description": "A bunch of rustic aircraft to travel, transport, and explore!",
+      "categories": [
+        "adventure",
+        "technology",
+        "transportation"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/immersive-aircraft",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "2.1",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "CVBAErky",
+      "slug": "immersive-structures",
+      "title": "Immersive structures",
+      "description": "Additional structure packs",
+      "categories": [
+        "adventure",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/immersive-structures",
+      "appeared_in": [
+        "2.2"
+      ],
+      "first_version": "2.2",
+      "last_version": "2.2",
+      "in_latest": false
+    },
+    {
+      "project_id": "NDPISpsB",
+      "slug": "improved-panorama",
+      "title": "Improved Panorama 1.21",
+      "description": "Adds a background made in Blender to the main menu",
+      "categories": [
+        "512x+",
+        "gui",
+        "realistic"
+      ],
+      "project_type": "resourcepack",
+      "url": "https://modrinth.com/resourcepack/improved-panorama",
+      "appeared_in": [
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4"
+      ],
+      "first_version": "4.0",
+      "last_version": "4.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "cudtvDnd",
+      "slug": "in-game-account-switcher",
+      "title": "In-Game Account Switcher",
+      "description": "This mod allows you to change your logged in account in-game, without restarting Minecraft",
+      "categories": [
+        "management",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/in-game-account-switcher",
+      "appeared_in": [
+        "2.1",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3"
+      ],
+      "first_version": "2.1",
+      "last_version": "3.3",
+      "in_latest": false
+    },
+    {
+      "project_id": "ZVzW5oNS",
+      "slug": "incendium",
+      "title": "Incendium Legacy",
+      "description": "A nether biome overhaul combined with challenging structures to conquer, unique weapons to obtain, and tricky mobs to defeat.",
+      "categories": [
+        "adventure",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/incendium",
+      "appeared_in": [
+        "2.2",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.2",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "ljWczies",
+      "slug": "inertiaanticheat",
+      "title": "Inertia Anti Cheat",
+      "description": "Stop people from using unwanted mods on your server!",
+      "categories": [
+        "management",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/inertiaanticheat",
+      "appeared_in": [
+        "3.0",
+        "3.1",
+        "3.2"
+      ],
+      "first_version": "3.0",
+      "last_version": "3.2",
+      "in_latest": false
+    },
+    {
+      "project_id": "F7wXag4i",
+      "slug": "inventory-management",
+      "title": "Inventory Management",
+      "description": "Sort and transfer items with the click of a button.",
+      "categories": [
+        "storage",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/inventory-management",
+      "appeared_in": [
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "3.3",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "YL57xq9U",
+      "slug": "iris",
+      "title": "Iris Shaders",
+      "description": "A modern shader pack loader for Minecraft intended to be compatible with existing OptiFine shader packs",
+      "categories": [
+        "decoration",
+        "optimization"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/iris",
+      "appeared_in": [
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3"
+      ],
+      "first_version": "4.0",
+      "last_version": "4.3",
+      "in_latest": false
+    },
+    {
+      "project_id": "OuyCgP8t",
+      "slug": "itemphysic-lite",
+      "title": "ItemPhysic Lite",
+      "description": "items fall to the ground and do not float",
+      "categories": [
+        "decoration"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/itemphysic-lite",
+      "appeared_in": [
+        "2.1",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "p8RJPJIC",
+      "slug": "ixeris",
+      "title": "Ixeris",
+      "description": "Buffered raw input and threaded event polling",
+      "categories": [
+        "optimization"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/ixeris",
+      "appeared_in": [
+        "4.5"
+      ],
+      "first_version": "4.5",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "u6dRKJwZ",
+      "slug": "jei",
+      "title": "Just Enough Items (JEI)",
+      "description": "View Items and Recipes",
+      "categories": [
+        "library",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/jei",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "edU0NbZZ",
+      "slug": "just-hammers",
+      "title": "Just Hammers",
+      "description": "Adds hammers to the game that are able to mine in a 3x3, 3x3x3, 5x5x1, 5x5x3 and finally a 5x5x5! They're pretty awesome.",
+      "categories": [
+        "game-mechanics"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/just-hammers",
+      "appeared_in": [
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "4.0",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "blWBX5n1",
+      "slug": "forcecloseworldloadingscreen",
+      "title": "kennytvs-epic-force-close-loading-screen-mod-for-fabric",
+      "description": "Instantly closes the loading terrain screen on world changing and drastically reduces the resource pack loading screen duration",
+      "categories": [
+        "cursed",
+        "optimization"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/forcecloseworldloadingscreen",
+      "appeared_in": [
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "4.4",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "fQEb0iXm",
+      "slug": "krypton",
+      "title": "Krypton",
+      "description": "A mod to optimize the Minecraft networking stack",
+      "categories": [
+        "optimization",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/krypton",
+      "appeared_in": [
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "3.3",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "hvFnDODi",
+      "slug": "lazydfu",
+      "title": "LazyDFU",
+      "description": "Makes the game boot faster by deferring non-essential initialization",
+      "categories": [
+        "optimization"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/lazydfu",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "2.1",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "atHH8NyV",
+      "slug": "legendary-tooltips",
+      "title": "Legendary Tooltips",
+      "description": "Give your rare items a fancier tooltip! Also adds additional tooltip configuration options.",
+      "categories": [
+        "adventure",
+        "equipment",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/legendary-tooltips",
+      "appeared_in": [
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4"
+      ],
+      "first_version": "3.0",
+      "last_version": "4.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "DOB2l4oJ",
+      "slug": "library-ferret",
+      "title": "Library Ferret",
+      "description": "Shared code for the mod of jtorleon studios",
+      "categories": [
+        "economy",
+        "library",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/library-ferret",
+      "appeared_in": [
+        "4.0"
+      ],
+      "first_version": "4.0",
+      "last_version": "4.0",
+      "in_latest": false
+    },
+    {
+      "project_id": "piqpXT8s",
+      "slug": "lios-overhauled-villages",
+      "title": "Lios Overhauled Villages",
+      "description": "Lio's Overhauled Villages\n\nOverview\nWelcome to Lio's Overhauled Villages! This mod is a transformation that brings a more modern and lively atmosphere to villages.",
+      "categories": [
+        "adventure",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/lios-overhauled-villages",
+      "appeared_in": [
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "4.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "gvQqBUqZ",
+      "slug": "lithium",
+      "title": "Lithium",
+      "description": "No-compromises game logic optimization mod, useful for both single-player games and multi-player servers.",
+      "categories": [
+        "optimization"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/lithium",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "XaDC71GB",
+      "slug": "lithostitched",
+      "title": "Lithostitched",
+      "description": "Library mod with new configurability and compatibility enhancements for worldgen",
+      "categories": [
+        "library",
+        "utility",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/lithostitched",
+      "appeared_in": [
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "4.0",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "kNxa8z3e",
+      "slug": "macaws-doors",
+      "title": "Macaw's Doors",
+      "description": "Adds vanilla doors with every wood color and new unique doors!\nSuch as western, garage, shoji and more...!",
+      "categories": [
+        "decoration"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/macaws-doors",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "2.1",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "n2fvCDlM",
+      "slug": "macaws-trapdoors",
+      "title": "Macaw's Trapdoors",
+      "description": "Adds vanila trapdoors in every plank variation, and some new trapdoors too!",
+      "categories": [
+        "decoration"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/macaws-trapdoors",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "2.1",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "C255PPUX",
+      "slug": "map-atlases",
+      "title": "Map Atlases",
+      "description": " A vanilla-friendly mini-map/world-map mod using vanilla Maps! ",
+      "categories": [
+        "adventure",
+        "equipment",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/map-atlases",
+      "appeared_in": [
+        "4.0",
+        "4.1"
+      ],
+      "first_version": "4.0",
+      "last_version": "4.1",
+      "in_latest": false
+    },
+    {
+      "project_id": "tNmWwdI2",
+      "slug": "mcqoy",
+      "title": "McQoy",
+      "description": "Dependencyless* config screens! An in-game editor for Kaleido-based configs - with no setup required.",
+      "categories": [
+        "library",
+        "management",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/mcqoy",
+      "appeared_in": [
+        "4.5"
+      ],
+      "first_version": "4.5",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "NRjRiSSD",
+      "slug": "memoryleakfix",
+      "title": "Memory Leak Fix",
+      "description": "A mod that fixes random memory leaks for both the client and server",
+      "categories": [
+        "optimization"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/memoryleakfix",
+      "appeared_in": [
+        "2.1",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "2.1",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "r4PuRGfV",
+      "slug": "mes-moogs-end-structures",
+      "title": "MES - Moog's End Structures",
+      "description": "Lots of Vanilla styled structrues to fill up the end dimension with life!",
+      "categories": [
+        "adventure",
+        "decoration",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/mes-moogs-end-structures",
+      "appeared_in": [
+        "2.2"
+      ],
+      "first_version": "2.2",
+      "last_version": "2.2",
+      "in_latest": false
+    },
+    {
+      "project_id": "codAaoxh",
+      "slug": "midnightlib",
+      "title": "MidnightLib",
+      "description": "Common library providing a lightweight configuration system",
+      "categories": [
+        "library",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/midnightlib",
+      "appeared_in": [
+        "2.1",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "2.1",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "Adega8YN",
+      "slug": "mmmmmmmmmmmm",
+      "title": "MmmMmmMmmMmm",
+      "description": "Target Dummy that show damage dealt and can be equipped with armor",
+      "categories": [
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/mmmmmmmmmmmm",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "nGUXvjTa",
+      "slug": "mns-moogs-nether-structures",
+      "title": "MNS - Moog's Nether Structures",
+      "description": "loads of structures made with vanilla blocks and entities bringing life to your world! Discover loot, enemies, & more along the way!",
+      "categories": [
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/mns-moogs-nether-structures",
+      "appeared_in": [
+        "2.2"
+      ],
+      "first_version": "2.2",
+      "last_version": "2.2",
+      "in_latest": false
+    },
+    {
+      "project_id": "mOgUt4GM",
+      "slug": "modmenu",
+      "title": "Mod Menu",
+      "description": "Adds a mod menu to view the list of mods you have installed.",
+      "categories": [
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/modmenu",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "nmDcB62a",
+      "slug": "modernfix",
+      "title": "ModernFix",
+      "description": "All-in-one mod that improves performance, reduces memory usage, and fixes many bugs. Compatible with all your favorite performance mods!",
+      "categories": [
+        "optimization",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/modernfix",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "twkfQtEc",
+      "slug": "moonlight",
+      "title": "Moonlight Lib",
+      "description": "dynamic data pack and registration, villager activities, custom map marker and a lot more",
+      "categories": [
+        "library"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/moonlight",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "51shyZVL",
+      "slug": "moreculling",
+      "title": "More Culling",
+      "description": "A mod that changes how multiple types of culling are handled in order to improve performance",
+      "categories": [
+        "library",
+        "optimization",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/moreculling",
+      "appeared_in": [
+        "2.1",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "JiEhJ3WG",
+      "slug": "more-mob-variants",
+      "title": "More Mob Variants",
+      "description": "Adds new variants to existing mobs.",
+      "categories": [
+        "decoration",
+        "mobs",
+        "social"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/more-mob-variants",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "2.1",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "A4YQgwzz",
+      "slug": "music-notification",
+      "title": "Music Notification",
+      "description": "Configure visual notifications when music is played in-game",
+      "categories": [
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/music-notification",
+      "appeared_in": [
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "3.0",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "derP0ten",
+      "slug": "mutant-monsters",
+      "title": "Mutant Monsters",
+      "description": "The mutants are back! Face scary creatures and powerful beasts like never before.",
+      "categories": [
+        "mobs"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/mutant-monsters",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "2.1",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "OQAgZMH1",
+      "slug": "moogs-voyager-structures",
+      "title": "MVS - Moog's Voyager Structures",
+      "description": "adds 130+ vanilla style structures to your world to bring it alive, using vanilla blocks. Includes dungeons and enemies to fight!",
+      "categories": [
+        "adventure",
+        "decoration",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/moogs-voyager-structures",
+      "appeared_in": [
+        "2.2"
+      ],
+      "first_version": "2.2",
+      "last_version": "2.2",
+      "in_latest": false
+    },
+    {
+      "project_id": "eUma2vmY",
+      "slug": "mystical-oak-tree",
+      "title": "Mystical Oak Tree",
+      "description": "Interactive and talking NPC-Like block with 300+ lines of lore, wisdom and facts",
+      "categories": [
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/mystical-oak-tree",
+      "appeared_in": [
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "4.0",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "bAWzYNRd",
+      "slug": "mythicmetals",
+      "title": "Mythic Metals",
+      "description": "Adds a large variety of ores, toolsets, weapons and armor to the game.",
+      "categories": [
+        "equipment",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/mythicmetals",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "KuNKN7d2",
+      "slug": "noisium",
+      "title": "Noisium",
+      "description": "Optimises worldgen performance for a better gameplay experience.",
+      "categories": [
+        "optimization",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/noisium",
+      "appeared_in": [
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4"
+      ],
+      "first_version": "4.0",
+      "last_version": "4.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "MPCX6s5C",
+      "slug": "not-enough-animations",
+      "title": "Not Enough Animations",
+      "description": "Bringing first-person animations to the third-person",
+      "categories": [
+        "adventure",
+        "decoration"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/not-enough-animations",
+      "appeared_in": [
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "4.0",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "fU7jbFHc",
+      "slug": "obscure-api",
+      "title": "Obscure API",
+      "description": "Auxiliary Library",
+      "categories": [
+        "library",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/obscure-api",
+      "appeared_in": [
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "3.0",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "lo90fZoB",
+      "slug": "odyssey-quests",
+      "title": "Odyssey Quests",
+      "description": "A tree-style questing mod, allowing pack makers to make and include completable quests for their players",
+      "categories": [
+        "adventure",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/odyssey-quests",
+      "appeared_in": [
+        "3.0"
+      ],
+      "first_version": "3.0",
+      "last_version": "3.0",
+      "in_latest": false
+    },
+    {
+      "project_id": "aXf2OSFU",
+      "slug": "ok-zoomer",
+      "title": "Ok Zoomer - It's Zoom!",
+      "description": "Ok Zoomer is a zoom mod that is powerful, lean, and pretty customizable. The zoom is yours!",
+      "categories": [
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/ok-zoomer",
+      "appeared_in": [
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "4.0",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "p5wmRC3H",
+      "slug": "only-hammers",
+      "title": "Only Hammers",
+      "description": "A simple mod that adds various type of hammers, that mine 3x1 area",
+      "categories": [
+        "equipment"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/only-hammers",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "2.1",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "J8MMsNrL",
+      "slug": "oracle-index",
+      "title": "Oracle Index",
+      "description": "A minecraft fabric / neoforge client-side documentation viewer mod, intended to be used with wikis alongside moddedmc.wiki",
+      "categories": [
+        "library",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/oracle-index",
+      "appeared_in": [
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3"
+      ],
+      "first_version": "4.0",
+      "last_version": "4.3",
+      "in_latest": false
+    },
+    {
+      "project_id": "ccKDOlHs",
+      "slug": "owo-lib",
+      "title": "o\u03c9o (owo-lib)",
+      "description": "A general utility, GUI and config library for modding on Fabric and Quilt",
+      "categories": [
+        "library"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/owo-lib",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "FxXkHaLe",
+      "slug": "paladins-and-priests",
+      "title": "Paladins & Priests (RPG Series)",
+      "description": "\u2728 Protect and heal your friends as a Paladin or a Priest",
+      "categories": [
+        "adventure",
+        "equipment",
+        "magic"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/paladins-and-priests",
+      "appeared_in": [
+        "2.1",
+        "2.2"
+      ],
+      "first_version": "2.1",
+      "last_version": "2.2",
+      "in_latest": false
+    },
+    {
+      "project_id": "4k0QM1rC",
+      "slug": "panorama-screens",
+      "title": "Panorama Screens",
+      "description": "Enhance Minecraft menus by adding the rotating panorama background to most screens!",
+      "categories": [
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/panorama-screens",
+      "appeared_in": [
+        "2.1",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "2.1",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "ZX66K16c",
+      "slug": "pick-up-notifier",
+      "title": "Pick Up Notifier",
+      "description": "Be notified about all the things you've just collected.",
+      "categories": [
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/pick-up-notifier",
+      "appeared_in": [
+        "4.5"
+      ],
+      "first_version": "4.5",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "gedNE4y2",
+      "slug": "playeranimator",
+      "title": "playerAnimator",
+      "description": "animate the player",
+      "categories": [
+        "library"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/playeranimator",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "2.1",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "ZLKQjA7t",
+      "slug": "pneumono_core",
+      "title": "PneumonoCore",
+      "description": "Core mod my other mods depend on",
+      "categories": [
+        "library"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/pneumono_core",
+      "appeared_in": [
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "3.0",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "rcTfTZr3",
+      "slug": "presence-footsteps",
+      "title": "Presence Footsteps",
+      "description": "..An Overly complicated Sound Mod...",
+      "categories": [
+        "decoration"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/presence-footsteps",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "1OE8wbN0",
+      "slug": "prism-lib",
+      "title": "Prism",
+      "description": "A library all about color! Provides lots of color-related functionality for dependent mods.",
+      "categories": [
+        "decoration",
+        "library",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/prism-lib",
+      "appeared_in": [
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "3.0",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "AOyJhFvl",
+      "slug": "projectile-damage-attribute",
+      "title": "Projectile Damage Attribute",
+      "description": "\ud83c\udff9 Range weapon damage becomes configurable.",
+      "categories": [
+        "adventure",
+        "equipment",
+        "library"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/projectile-damage-attribute",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "2.1",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "3IuO68q1",
+      "slug": "puzzle",
+      "title": "Puzzle",
+      "description": "Adds resourcepack features and a GUI to configure OptiFine alternatives more conveniently.",
+      "categories": [
+        "library",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/puzzle",
+      "appeared_in": [
+        "4.5"
+      ],
+      "first_version": "4.5",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "QAGBst4M",
+      "slug": "puzzles-lib",
+      "title": "Puzzles Lib",
+      "description": "Why is it called Puzzles? That's the puzzle.",
+      "categories": [
+        "library"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/puzzles-lib",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "AqaIIO6D",
+      "slug": "ranged-weapon-api",
+      "title": "Ranged Weapon API",
+      "description": "\ud83c\udff9 Create fully functional bows and crossbows, with ease",
+      "categories": [
+        "equipment",
+        "library"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/ranged-weapon-api",
+      "appeared_in": [
+        "3.4"
+      ],
+      "first_version": "3.4",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "Bh37bMuy",
+      "slug": "reeses-sodium-options",
+      "title": "Reese's Sodium Options",
+      "description": "Alternative Options Menu for Sodium",
+      "categories": [
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/reeses-sodium-options",
+      "appeared_in": [
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1"
+      ],
+      "first_version": "3.0",
+      "last_version": "4.1",
+      "in_latest": false
+    },
+    {
+      "project_id": "ta5dy0aA",
+      "slug": "reimagined",
+      "title": "Reimagined",
+      "description": "A Reimagined Vision of Minecraft",
+      "categories": [
+        "decoration",
+        "tweaks",
+        "vanilla-like"
+      ],
+      "project_type": "resourcepack",
+      "url": "https://modrinth.com/resourcepack/reimagined",
+      "appeared_in": [
+        "3.0",
+        "3.1",
+        "3.4"
+      ],
+      "first_version": "3.0",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "muf0XoRe",
+      "slug": "repurposed-structures-fabric",
+      "title": "Repurposed Structures - Fabric",
+      "description": "Adds more variations of vanilla structures and features such as a Jungle Fortress!",
+      "categories": [
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/repurposed-structures-fabric",
+      "appeared_in": [
+        "2.2"
+      ],
+      "first_version": "2.2",
+      "last_version": "2.2",
+      "in_latest": false
+    },
+    {
+      "project_id": "M1953qlQ",
+      "slug": "resourceful-config",
+      "title": "Resourceful Config",
+      "description": "Resourceful Config is a mod that allows for developers to make cross-platform configs",
+      "categories": [
+        "library"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/resourceful-config",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.5"
+      ],
+      "first_version": "2.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "G1hIVOrD",
+      "slug": "resourceful-lib",
+      "title": "Resourceful Lib",
+      "description": "Resourceful Lib",
+      "categories": [
+        "library"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/resourceful-lib",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "8YcE8y4T",
+      "slug": "ribbits",
+      "title": "Ribbits",
+      "description": "Swamp villages and musical frogs!",
+      "categories": [
+        "decoration",
+        "mobs",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/ribbits",
+      "appeared_in": [
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "4.0",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "nfn13YXA",
+      "slug": "rei",
+      "title": "Roughly Enough Items (REI)",
+      "description": "Clean and Customizable. Alternative to Just Enough Items/JEI.",
+      "categories": [],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/rei",
+      "appeared_in": [
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "3.0",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "lP9Yrr1E",
+      "slug": "runes",
+      "title": "Runes",
+      "description": "\ud83e\udea8 Craft runes to serve as ammo for spells",
+      "categories": [
+        "magic"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/runes",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "2.1",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "Ps1zyz6x",
+      "slug": "scalablelux",
+      "title": "ScalableLux",
+      "description": "A Fabric mod based on Starlight that improves the performance of light updates in Minecraft.",
+      "categories": [
+        "optimization"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/scalablelux",
+      "appeared_in": [
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "4.4",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "Glp1bwYc",
+      "slug": "simplefog",
+      "title": "Simple Fog Control",
+      "description": "Allows simple control over water, nether and terrain fog.",
+      "categories": [
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/simplefog",
+      "appeared_in": [
+        "4.5"
+      ],
+      "first_version": "4.5",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "ti9KkMHm",
+      "slug": "simple-grass-flowers",
+      "title": "Simple Grass Flowers",
+      "description": "Gives Grass, Podzol, Mycelium, Crimson Nylium, and Warped Nylium vanilla-friendly flowers, clovers, and rocks!",
+      "categories": [
+        "decoration",
+        "environment",
+        "vanilla-like"
+      ],
+      "project_type": "resourcepack",
+      "url": "https://modrinth.com/resourcepack/simple-grass-flowers",
+      "appeared_in": [
+        "4.5"
+      ],
+      "first_version": "4.5",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "9eGKb6K1",
+      "slug": "simple-voice-chat",
+      "title": "Simple Voice Chat",
+      "description": "A working voice chat in Minecraft!",
+      "categories": [
+        "adventure",
+        "social",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/simple-voice-chat",
+      "appeared_in": [
+        "2.1",
+        "2.2"
+      ],
+      "first_version": "2.1",
+      "last_version": "2.2",
+      "in_latest": false
+    },
+    {
+      "project_id": "bK3Ubu9p",
+      "slug": "simply-swords",
+      "title": "Simply Swords",
+      "description": "Adds Spears, Glaives, Chakrams, Katanas, Greathammer/axes, Rapiers, and many more weapons!",
+      "categories": [
+        "equipment",
+        "magic"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/simply-swords",
+      "appeared_in": [
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "4.0",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "6avVoBVB",
+      "slug": "simply-tooltips",
+      "title": "Simply Tooltips",
+      "description": "Modern data driven tooltip rendering",
+      "categories": [
+        "library",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/simply-tooltips",
+      "appeared_in": [
+        "4.5"
+      ],
+      "first_version": "4.5",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "CllP7wW0",
+      "slug": "smooth-scroll",
+      "title": "Smooth Scrolling",
+      "description": "Customize the scrolling smoothness or speed in various places like chat, hotbar, creative screen...",
+      "categories": [
+        "cursed",
+        "decoration",
+        "social"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/smooth-scroll",
+      "appeared_in": [
+        "4.5"
+      ],
+      "first_version": "4.5",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "AANobbMI",
+      "slug": "sodium",
+      "title": "Sodium",
+      "description": "A high-performance rendering engine replacement for Minecraft, which greatly improves frame rates and reduces micro-stutter.",
+      "categories": [
+        "optimization"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/sodium",
+      "appeared_in": [
+        "2.1",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "PtjYWJkn",
+      "slug": "sodium-extra",
+      "title": "Sodium Extra",
+      "description": "A Sodium addon that adds features that shouldn't be in Sodium.",
+      "categories": [
+        "cursed",
+        "optimization",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/sodium-extra",
+      "appeared_in": [
+        "2.1",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "snEgWyzx",
+      "slug": "soothing-scenes-backgrounds",
+      "title": "Soothing Scenes Backgrounds",
+      "description": "This Resource Pack let\u2019s you select between a few of the Official Soothing Scenes Videos as Main Menu Backgrounds.",
+      "categories": [
+        "gui",
+        "themed",
+        "vanilla-like"
+      ],
+      "project_type": "resourcepack",
+      "url": "https://modrinth.com/resourcepack/soothing-scenes-backgrounds",
+      "appeared_in": [
+        "4.5"
+      ],
+      "first_version": "4.5",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "ouNrBQtq",
+      "slug": "sophisticated-backpacks-(unoffical-fabric-port)",
+      "title": "Sophisticated Backpacks (Unoffical Fabric port)",
+      "description": "This is the Unofficial Fabric version of Sophisticated Backpacks.",
+      "categories": [
+        "equipment",
+        "storage"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/sophisticated-backpacks-(unoffical-fabric-port)",
+      "appeared_in": [
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "4.0",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "9jxwkYQL",
+      "slug": "sophisticated-core-(unofficial-fabric-port)",
+      "title": "Sophisticated Core (Unofficial Fabric port)",
+      "description": "This is the Unofficial Fabric version of Sophisticated Core",
+      "categories": [
+        "library"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/sophisticated-core-(unofficial-fabric-port)",
+      "appeared_in": [
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "4.0",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "qyVF9oeo",
+      "slug": "sound-physics-remastered",
+      "title": "Sound Physics Remastered",
+      "description": "A Minecraft mod that provides realistic sound attenuation, reverberation, and absorption through blocks.",
+      "categories": [
+        "adventure",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/sound-physics-remastered",
+      "appeared_in": [
+        "2.1",
+        "2.2"
+      ],
+      "first_version": "2.1",
+      "last_version": "2.2",
+      "in_latest": false
+    },
+    {
+      "project_id": "XvoWJaA2",
+      "slug": "spell-engine",
+      "title": "Spell Engine",
+      "description": "\ud83e\ude84 Data driven magic library",
+      "categories": [
+        "game-mechanics",
+        "library",
+        "magic"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/spell-engine",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "2.1",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "8ooWzSQP",
+      "slug": "spell-power",
+      "title": "Spell Power Attributes",
+      "description": "\ud83d\udd2e Spell Power entity attributes with related status effects and enchantments",
+      "categories": [
+        "library",
+        "magic"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/spell-power",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "2.1",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "HtGckJVc",
+      "slug": "stack-to-nearby-chests",
+      "title": "Stack to Nearby Chests",
+      "description": "A client-side ONLY mod, adds the quick stacking and restocking features from Terraria into Minecraft.",
+      "categories": [
+        "storage",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/stack-to-nearby-chests",
+      "appeared_in": [
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "4.0",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "ayPU0OHc",
+      "slug": "structure-layout-optimizer",
+      "title": "Structure Layout Optimizer",
+      "description": "Attempts to optimize the generation of Jigsaw Structures and NBT pieces",
+      "categories": [
+        "optimization"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/structure-layout-optimizer",
+      "appeared_in": [
+        "4.5"
+      ],
+      "first_version": "4.5",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "rOUBggPv",
+      "slug": "supermartijn642s-core-lib",
+      "title": "SuperMartijn642's Core Lib",
+      "description": "SuperMartijn642's Core Lib adds lots of basic implementations that allow for similar code between different Minecraft versions!",
+      "categories": [
+        "library"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/supermartijn642s-core-lib",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "2.1",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "fFEIiSDQ",
+      "slug": "supplementaries",
+      "title": "Supplementaries",
+      "description": "Vanilla+ additions: Jars, signposts, faucets, weather vanes spring launchers, sconces, planters, lights, decoration and automation",
+      "categories": [
+        "decoration",
+        "game-mechanics",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/supplementaries",
+      "appeared_in": [
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "4.0",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "4KjqhPc9",
+      "slug": "surveyor",
+      "title": "Surveyor Map Framework",
+      "description": "Maps with friends! A world map backend with multiplayer sharing, automatic structure/POI marking, and unified mod compatibility.",
+      "categories": [
+        "library",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/surveyor",
+      "appeared_in": [
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "4.2",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "f3WJvB4r",
+      "slug": "surveystones",
+      "title": "Surveystones",
+      "description": "Adds waystones to surveyor maps like Antique Atlas 4 and Hoofprint.\nSupports Blaystones and Fwaystones.",
+      "categories": [
+        "adventure",
+        "game-mechanics",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/surveystones",
+      "appeared_in": [
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "4.2",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "BUpChT1v",
+      "slug": "talkbubbles",
+      "title": "TalkBubbles",
+      "description": "adds bubbles above your head when you chat",
+      "categories": [
+        "decoration",
+        "social"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/talkbubbles",
+      "appeared_in": [
+        "2.1"
+      ],
+      "first_version": "2.1",
+      "last_version": "2.1",
+      "in_latest": false
+    },
+    {
+      "project_id": "lWDHr9jE",
+      "slug": "tectonic",
+      "title": "Tectonic",
+      "description": "Terrain shaping brought to new heights, grander and more varied than ever before!",
+      "categories": [
+        "adventure",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/tectonic",
+      "appeared_in": [
+        "4.1",
+        "4.2",
+        "4.3"
+      ],
+      "first_version": "4.1",
+      "last_version": "4.3",
+      "in_latest": false
+    },
+    {
+      "project_id": "eXts2L7r",
+      "slug": "placeholder-api",
+      "title": "Text Placeholder API",
+      "description": "Placeholder and Text manipulation library for your Minecraft mods.",
+      "categories": [
+        "library"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/placeholder-api",
+      "appeared_in": [
+        "4.5"
+      ],
+      "first_version": "4.5",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "9TbXlAut",
+      "slug": "thermoo",
+      "title": "Thermoo",
+      "description": "Temperature and Environment library mod. Used by Frostiful and Scorchful.",
+      "categories": [
+        "library"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/thermoo",
+      "appeared_in": [
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "4.0",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "vSEH1ERy",
+      "slug": "threadtweak",
+      "title": "ThreadTweak",
+      "description": "Improve and tweak Minecraft thread scheduling. Fork of Smooth Boot for \u22651.20",
+      "categories": [
+        "optimization",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/threadtweak",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "2.1",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "8pcjMDgj",
+      "slug": "trading-post",
+      "title": "Trading Post",
+      "description": "Rule the village! Trade with every villager at once!",
+      "categories": [
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/trading-post",
+      "appeared_in": [
+        "2.1",
+        "2.2"
+      ],
+      "first_version": "2.1",
+      "last_version": "2.2",
+      "in_latest": false
+    },
+    {
+      "project_id": "4QrnfueM",
+      "slug": "trash-cans",
+      "title": "Trash Cans",
+      "description": "Trash Cans adds trash cans which can be used to void items, liquids, and energy!",
+      "categories": [
+        "decoration",
+        "storage",
+        "technology"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/trash-cans",
+      "appeared_in": [
+        "2.1",
+        "2.2"
+      ],
+      "first_version": "2.1",
+      "last_version": "2.2",
+      "in_latest": false
+    },
+    {
+      "project_id": "rlloIFEV",
+      "slug": "travelersbackpack",
+      "title": "Traveler's Backpack",
+      "description": "Unique and upgradeable backpacks with customisation, Curios API/Trinkets integration and more!",
+      "categories": [
+        "adventure",
+        "equipment",
+        "storage"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/travelersbackpack",
+      "appeared_in": [
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "3.0",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "JtifUr64",
+      "slug": "travelers-titles",
+      "title": "Traveler's Titles",
+      "description": "Epic, RPG-like titles when entering biomes & dimensions!",
+      "categories": [
+        "adventure",
+        "decoration",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/travelers-titles",
+      "appeared_in": [
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "4.2",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "h2jngREY",
+      "slug": "trek",
+      "title": "Trek",
+      "description": "Bored of vanilla structure generation? This pack is for you!",
+      "categories": [
+        "adventure",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/trek",
+      "appeared_in": [
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "4.4",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "5aaWibi9",
+      "slug": "trinkets",
+      "title": "Trinkets",
+      "description": "A data-driven accessory mod",
+      "categories": [
+        "equipment",
+        "library",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/trinkets",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "MCnBYP0b",
+      "slug": "true-ending",
+      "title": "True Ending - Ender Dragon Overhaul",
+      "description": "An Ender Dragon overhaul with progressing difficulty, new attacks, and elegant particle animation.",
+      "categories": [
+        "magic",
+        "mobs"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/true-ending",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "ZltblCOt",
+      "slug": "true-ending-ender-dragon-music",
+      "title": "True Ending: Ender Dragon Music",
+      "description": "An optional addition to True Ending adding new boss music to the Ender Dragon fight",
+      "categories": [
+        "audio"
+      ],
+      "project_type": "resourcepack",
+      "url": "https://modrinth.com/resourcepack/true-ending-ender-dragon-music",
+      "appeared_in": [
+        "3.0",
+        "3.1",
+        "3.4"
+      ],
+      "first_version": "3.0",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "BaY1UdGV",
+      "slug": "unique-dark",
+      "title": "Unique Dark",
+      "description": "Dark GUI with unique textures for functional blocks. Dark mode for 80 mods",
+      "categories": [
+        "16x",
+        "gui",
+        "utility"
+      ],
+      "project_type": "resourcepack",
+      "url": "https://modrinth.com/resourcepack/unique-dark",
+      "appeared_in": [
+        "3.0",
+        "3.1",
+        "3.4"
+      ],
+      "first_version": "3.0",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "9NXbHzs3",
+      "slug": "unique-dark-refined",
+      "title": "Unique Dark Refined",
+      "description": "Dark UI with unique textures for functional blocks. Different version of Unique Dark",
+      "categories": [
+        "16x",
+        "gui",
+        "modded"
+      ],
+      "project_type": "resourcepack",
+      "url": "https://modrinth.com/resourcepack/unique-dark-refined",
+      "appeared_in": [
+        "3.0",
+        "3.1",
+        "3.4"
+      ],
+      "first_version": "3.0",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "66VIiT1y",
+      "slug": "universal-bone-meal",
+      "title": "Universal Bone Meal",
+      "description": "Stop the bonemeal discrimination! Grow all plants, no limitations.",
+      "categories": [
+        "food",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/universal-bone-meal",
+      "appeared_in": [
+        "2.1",
+        "2.2"
+      ],
+      "first_version": "2.1",
+      "last_version": "2.2",
+      "in_latest": false
+    },
+    {
+      "project_id": "Z6cnZeGU",
+      "slug": "visual-travelers-titles",
+      "title": "Visual Traveler's Titles",
+      "description": "Visual titles when entering dimensions!",
+      "categories": [
+        "fonts",
+        "gui",
+        "tweaks"
+      ],
+      "project_type": "resourcepack",
+      "url": "https://modrinth.com/resourcepack/visual-travelers-titles",
+      "appeared_in": [
+        "4.5"
+      ],
+      "first_version": "4.5",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "kfqD1JRw",
+      "slug": "visual-workbench",
+      "title": "Visual Workbench",
+      "description": "Items stay inside of crafting tables and are also rendered on top. It's really fancy!",
+      "categories": [
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/visual-workbench",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "rI0hvYcd",
+      "slug": "visuality",
+      "title": "Visuality",
+      "description": "Little visual improvements by adding a bunch of new particles.",
+      "categories": [
+        "decoration"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/visuality",
+      "appeared_in": [
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "3.0",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "dlNu0RQY",
+      "slug": "wakes",
+      "title": "Wakes",
+      "description": "Adds splashes and wakes while traveling on water",
+      "categories": [
+        "decoration"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/wakes",
+      "appeared_in": [
+        "2.1"
+      ],
+      "first_version": "2.1",
+      "last_version": "2.1",
+      "in_latest": false
+    },
+    {
+      "project_id": "AtB5mHky",
+      "slug": "what-are-they-up-to",
+      "title": "What Are They Up To (Watut)",
+      "description": "Lets you see if players are typing, in a GUI, idle, with cool ingame visuals",
+      "categories": [
+        "social",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/what-are-they-up-to",
+      "appeared_in": [
+        "2.1",
+        "2.2"
+      ],
+      "first_version": "2.1",
+      "last_version": "2.2",
+      "in_latest": false
+    },
+    {
+      "project_id": "8DfbfASn",
+      "slug": "when-dungeons-arise",
+      "title": "When Dungeons Arise",
+      "description": "Adds various elegant -and likely hostile- roguelike dungeons and structures that generate on your worlds!",
+      "categories": [
+        "adventure",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/when-dungeons-arise",
+      "appeared_in": [
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3"
+      ],
+      "first_version": "2.2",
+      "last_version": "4.3",
+      "in_latest": false
+    },
+    {
+      "project_id": "NkGaQMDA",
+      "slug": "wizards",
+      "title": "Wizards (RPG Series)",
+      "description": "\ud83e\uddd9\ud83c\udffb\u200d\u2642\ufe0f Destroy your enemies with Arcane, Fire and Frost magic",
+      "categories": [
+        "adventure",
+        "equipment",
+        "magic"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/wizards",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "2.1",
+      "last_version": "3.4",
+      "in_latest": false
+    },
+    {
+      "project_id": "sTZr7NVo",
+      "slug": "fwaystones",
+      "title": "Wraith Waystones",
+      "description": "A better way of transport",
+      "categories": [
+        "adventure",
+        "magic",
+        "transportation"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/fwaystones",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "Srw5RQ6k",
+      "slug": "xalis-enhanced-vanilla",
+      "title": "xali's Enhanced Vanilla",
+      "description": "The texture pack for people who hate texture pack.",
+      "categories": [
+        "16x",
+        "environment",
+        "vanilla-like"
+      ],
+      "project_type": "resourcepack",
+      "url": "https://modrinth.com/resourcepack/xalis-enhanced-vanilla",
+      "appeared_in": [
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "4.0",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "1eAoo2KR",
+      "slug": "yacl",
+      "title": "YetAnotherConfigLib (YACL)",
+      "description": "A builder-based configuration library for Minecraft!",
+      "categories": [
+        "library",
+        "management",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/yacl",
+      "appeared_in": [
+        "2.1",
+        "2.2",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "HnD1GX6e",
+      "slug": "yigd",
+      "title": "You're in Grave Danger",
+      "description": "A mod focused around death. Will add graves to minecraft",
+      "categories": [
+        "adventure",
+        "storage",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/yigd",
+      "appeared_in": [
+        "2.1",
+        "2.2"
+      ],
+      "first_version": "2.1",
+      "last_version": "2.2",
+      "in_latest": false
+    },
+    {
+      "project_id": "Ua7DFN59",
+      "slug": "yungs-api",
+      "title": "YUNG's API",
+      "description": "Library mod for YUNG's mods.",
+      "categories": [
+        "library",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/yungs-api",
+      "appeared_in": [
+        "2.2",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.2",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "XNlO7sBv",
+      "slug": "yungs-better-desert-temples",
+      "title": "YUNG's Better Desert Temples",
+      "description": "A complete redesign of Minecraft's desert temples!",
+      "categories": [
+        "adventure",
+        "decoration",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/yungs-better-desert-temples",
+      "appeared_in": [
+        "2.2"
+      ],
+      "first_version": "2.2",
+      "last_version": "2.2",
+      "in_latest": false
+    },
+    {
+      "project_id": "o1C1Dkj5",
+      "slug": "yungs-better-dungeons",
+      "title": "YUNG's Better Dungeons",
+      "description": "A complete redesign of Minecraft's dungeons!",
+      "categories": [
+        "adventure",
+        "decoration",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/yungs-better-dungeons",
+      "appeared_in": [
+        "2.2"
+      ],
+      "first_version": "2.2",
+      "last_version": "2.2",
+      "in_latest": false
+    },
+    {
+      "project_id": "2BwBOmBQ",
+      "slug": "yungs-better-end-island",
+      "title": "YUNG's Better End Island",
+      "description": "An overhaul of the main End Island where the dragon fight takes place!",
+      "categories": [
+        "adventure",
+        "decoration",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/yungs-better-end-island",
+      "appeared_in": [
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "4.1",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "z9Ve58Ih",
+      "slug": "yungs-better-jungle-temples",
+      "title": "YUNG's Better Jungle Temples",
+      "description": "A complete redesign of Minecraft's jungle temples!",
+      "categories": [
+        "adventure",
+        "decoration",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/yungs-better-jungle-temples",
+      "appeared_in": [
+        "2.2"
+      ],
+      "first_version": "2.2",
+      "last_version": "2.2",
+      "in_latest": false
+    },
+    {
+      "project_id": "HjmxVlSr",
+      "slug": "yungs-better-mineshafts",
+      "title": "YUNG's Better Mineshafts",
+      "description": "A long-awaited and much-needed abandoned mineshaft overhaul!",
+      "categories": [
+        "adventure",
+        "decoration",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/yungs-better-mineshafts",
+      "appeared_in": [
+        "2.2",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.2",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "Z2mXHnxP",
+      "slug": "yungs-better-nether-fortresses",
+      "title": "YUNG's Better Nether Fortresses",
+      "description": "A complete redesign of Minecraft's Nether fortresses!",
+      "categories": [
+        "adventure",
+        "decoration",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/yungs-better-nether-fortresses",
+      "appeared_in": [
+        "2.2",
+        "4.0",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "first_version": "2.2",
+      "last_version": "4.5",
+      "in_latest": true
+    },
+    {
+      "project_id": "kidLKymU",
+      "slug": "yungs-better-strongholds",
+      "title": "YUNG's Better Strongholds",
+      "description": "A complete redesign of Minecraft's strongholds!",
+      "categories": [
+        "adventure",
+        "decoration",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/yungs-better-strongholds",
+      "appeared_in": [
+        "2.2"
+      ],
+      "first_version": "2.2",
+      "last_version": "2.2",
+      "in_latest": false
+    },
+    {
+      "project_id": "w7ThoJFB",
+      "slug": "zoomify",
+      "title": "Zoomify (Zoom)",
+      "description": "A zoom mod with infinite customizability.",
+      "categories": [
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/zoomify",
+      "appeared_in": [
+        "2.1",
+        "3.0",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4"
+      ],
+      "first_version": "2.1",
+      "last_version": "3.4",
+      "in_latest": false
+    }
+  ]
+}
