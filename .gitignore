@@ -1,0 +1,16 @@
+# Build output
+dist/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Minecraft runtime junk (in case someone points a client at overrides/)
+overrides/logs/
+overrides/crash-reports/
+overrides/saves/
+overrides/screenshots/
+*.log

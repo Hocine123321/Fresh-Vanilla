@@ -1,0 +1,63 @@
+# Fresh Vanilla
+
+Reimagined vanilla Minecraft — exploration, combat, and tweaks, built to stay lightweight.
+
+[![Modrinth](https://img.shields.io/badge/Modrinth-Fresh%20Vanilla-1bd96a?logo=modrinth&logoColor=white)](https://modrinth.com/modpack/fresh_vanilla)
+[![Discord](https://img.shields.io/badge/Discord-Fresh%20Vanilla-5865F2?logo=discord&logoColor=white)](https://discord.gg/aWS3tCQEgN)
+![Loader](https://img.shields.io/badge/loader-Fabric-dba321)
+![License](https://img.shields.io/badge/license-MIT-blue)
+
+## About
+
+Fresh Vanilla adds 150+ new structures, new mid/late-game bosses (with a reworked Ender Dragon
+fight), a new gear progression, refreshed nether/overworld worldgen, a new dimension, and a
+custom End island — while staying tuned for low-end hardware.
+
+**Tested performance:** 110–190 FPS on 3GB allocated RAM and a 2.3GHz CPU.
+
+## Compatibility
+
+| | |
+|---|---|
+| Minecraft | 1.20.1 – 1.21.1 |
+| Loader | Fabric |
+| This source snapshot targets | `1.20.1`, Fabric Loader `0.16.0` (pack v2.2) |
+| Environment | Client + Server |
+
+## Repo structure
+
+```
+pack/modrinth.index.json   canonical manifest — mod list, versions, MC/loader deps
+overrides/config/          per-mod config files shipped with the pack
+overrides/mods/            mods bundled directly (not resolvable via Modrinth API)
+overrides/servers.dat      default server list
+releases/                  packaged .mrpack builds
+scripts/build.sh           packages pack/ + overrides/ into a distributable .mrpack
+MODLIST.md                 generated mod list (91 mods)
+```
+
+## Installing
+
+**Players:** download the `.mrpack` from [Modrinth](https://modrinth.com/modpack/fresh_vanilla)
+or from `releases/` here, and open it with the Modrinth App / any `.mrpack`-compatible launcher.
+
+**Building from source:**
+```bash
+./scripts/build.sh
+```
+Outputs `dist/Fresh-Vanilla-<version>.mrpack`, built from `pack/modrinth.index.json` + `overrides/`.
+
+## Recommended add-ons
+
+- [Vanilla Experience+](https://modrinth.com/resourcepack/vanilla-exp) (resource pack)
+- [Enhanced Boss Bars](https://modrinth.com/resourcepack/enhanced-boss-bars) (resource pack)
+
+## Links
+
+- Modrinth: https://modrinth.com/modpack/fresh_vanilla
+- Discord: https://discord.gg/aWS3tCQEgN
+- Issues: use this repo's [Issues](../../issues) tab or the Discord
+
+## License
+
+MIT — see [LICENSE](LICENSE). Bundled mods retain their own individual licenses.
