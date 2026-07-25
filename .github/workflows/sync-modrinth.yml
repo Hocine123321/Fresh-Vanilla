@@ -1,0 +1,56 @@
+name: Sync Modrinth versions/changelog
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/sync-modrinth.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch project + versions from Modrinth API and build CHANGELOG/MODLIST
+        run: |
+          python3 - << 'PYEOF'
+          import json, urllib.request
+
+          H = {"User-Agent": "fresh-vanilla-github-sync/1.0 (github.com/Hocine123321/Fresh-Vanilla)"}
+
+          def get(url):
+              req = urllib.request.Request(url, headers=H)
+              with urllib.request.urlopen(req) as r:
+                  return json.loads(r.read())
+
+          project = get("https://api.modrinth.com/v2/project/H1WDyVEk")
+          versions = get("https://api.modrinth.com/v2/project/H1WDyVEk/version")
+          versions.sort(key=lambda v: v["date_published"], reverse=True)
+
+          with open("CHANGELOG.md", "w") as f:
+              f.write("# Changelog\n\nAuto-generated from the Modrinth version history. Do not hand-edit; re-run the \"Sync Modrinth versions/changelog\" workflow instead.\n\n")
+              for v in versions:
+                  gv = ", ".join(v.get("game_versions", []))
+                  f.write(f"## {v['version_number']} ({v['date_published'][:10]})\n\n")
+                  f.write(f"- Minecraft: {gv} | Loaders: {', '.join(v.get('loaders', []))} | Type: {v.get('version_type')}\n\n")
+                  body = (v.get("changelog") or "_No changelog provided._").strip()
+                  f.write(body + "\n\n")
+
+          latest = versions[0]
+          files = get(f"https://api.modrinth.com/v2/version/{latest['id']}")["files"]
+
+          with open("MODLIST.md", "w") as f:
+              f.write(f"# Mod List\n\nFrom Modrinth version **{latest['version_number']}** (latest). {len(latest.get('dependencies', []))} listed dependencies; see `pack/modrinth.index.json` for the full resolved file list.\n")
+
+          print("versions:", len(versions))
+          PYEOF
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add CHANGELOG.md MODLIST.md
+          git diff --cached --quiet || git commit -m "Sync CHANGELOG/MODLIST from Modrinth API"
+          git push
