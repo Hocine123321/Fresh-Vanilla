@@ -15,6 +15,12 @@ custom End island — while staying tuned for low-end hardware.
 
 **Tested performance:** 110–190 FPS on 3GB allocated RAM and a 2.3GHz CPU.
 
+## Features
+
+See **[FEATURES.md](FEATURES.md)** for the full list — every mod the pack has ever shipped, grouped
+by what it actually does (worldgen, bosses, gear, storage, performance, etc.), with the exact
+version range each one was included in.
+
 ## Compatibility
 
 | | |
@@ -34,6 +40,9 @@ overrides/servers.dat      default server list
 releases/                  packaged .mrpack builds
 scripts/build.sh           packages pack/ + overrides/ into a distributable .mrpack
 MODLIST.md                 generated mod list (kept in sync by the workflow)
+FEATURES.md                comprehensive feature list — every mod ever shipped, grouped by
+                            what it does, tagged with which version(s) it's/was in
+data/mod-history.json       raw per-mod version-appearance data backing FEATURES.md
 ```
 
 ## Installing
@@ -53,7 +62,19 @@ Outputs `dist/Fresh-Vanilla-<version>.mrpack`, built from `pack/modrinth.index.j
 [`.github/workflows/sync-modrinth.yml`](.github/workflows/sync-modrinth.yml) from the live Modrinth
 API — it pulls the full version history for the changelog and re-downloads the latest release's
 `.mrpack` for the source tree. Don't hand-edit those files; re-run the workflow (Actions tab →
-"Sync Modrinth versions/changelog/source" → Run workflow) after publishing a new version on Modrinth.
+"Sync Modrinth versions/changelog/source" → Run workflow) after publishing a new version on Modrinth
+— this part is already automatic, see below.
+
+`FEATURES.md` is different: it's curated on top of `data/mod-history.json` (which *is* kept current
+automatically), grouping mods into player-facing categories — that grouping needs a sanity check
+after big overhauls, so it's a manual step: `python3 scripts/generate_features_draft.py`, review,
+commit.
+
+## Automation
+
+The sync workflow runs on a 6-hour cron (`.github/workflows/sync-modrinth.yml`) — it checks Modrinth
+for a new release and only touches files if something actually changed. No manual triggering needed
+for day-to-day updates.
 
 ## Recommended add-ons
 
