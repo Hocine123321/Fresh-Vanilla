@@ -1,6 +1,6 @@
 # Changelog
 
-Auto-generated from the Modrinth version history. Do not hand-edit; re-run the "Sync Modrinth versions/changelog/source" workflow instead.
+Auto-generated from the Modrinth version history. Do not hand-edit; this file is refreshed automatically (see .github/workflows/sync-modrinth.yml).
 
 ## 4.5 (2026-03-29)
 
