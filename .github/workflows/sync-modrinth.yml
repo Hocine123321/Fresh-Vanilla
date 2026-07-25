@@ -131,6 +131,8 @@ jobs:
 
               print("synced to", target["version_number"], "-", len(rows), "mods")
           PYEOF
+      - name: Build per-mod version-history data (backbone for FEATURES.md)
+        run: python3 scripts/generate_mod_history.py
       - name: Commit if anything changed
         run: |
           git config user.name "github-actions[bot]"
