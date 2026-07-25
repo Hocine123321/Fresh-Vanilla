@@ -3,9 +3,8 @@
 		"eternalNighttime": true,
 		"experienceDrop": 1500,
 		"idleHealingPerTick": 0.20000000298023224,
-		"health": 300.0,
+		"health": 250.0,
 		"missile": {
-			"statusEffectId": "minecraft:slowness",
 			"statusEffectDuration": 100,
 			"statusEffectPotency": 2,
 			"damage": 9.0
@@ -35,7 +34,7 @@
 		}
 	},
 	"obsidilithConfig": {
-		"health": 300.0,
+		"health": 350.0,
 		"armor": 14.0,
 		"attack": 16.0,
 		"idleHealingPerTick": 0.5,
@@ -44,7 +43,7 @@
 		"anvilAttackExplosionStrength": 4.0
 	},
 	"gauntletConfig": {
-		"health": 250.0,
+		"health": 200.0,
 		"armor": 8.0,
 		"attack": 16.0,
 		"idleHealingPerTick": 0.5,

@@ -1,0 +1,18 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+enableTooltipRendering = true
+
+[general]
+scrollableTooltip = false
+tooltipTabs = true
+applyTooltipsToVanillaItems = true
+applyTooltipsToModItems = true
+
+[layout]
+padding = 6
+lineSpacing = 1
+maxTextWidth = 100
+maxBodyHeight = 80
+
+[animation]
+animationResetDelayMs = 180

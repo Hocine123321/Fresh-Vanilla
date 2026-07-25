@@ -1,0 +1,12 @@
+
+
+{
+  "configVersion": 2,
+  "auuiMod": true,
+  "renderChineseLogo": false,
+  "whiteLogo": false,
+  "renderAuuiBackground": true,
+  "renderAuuiOptions": true,
+  "renderEdition": false,
+  "renderPlayerModel": true
+}

@@ -1,0 +1,7 @@
+[general]
+resummonedDragonDropsEgg = false
+useVanillaSpawnPlatform = false
+useVanillaEndGateways = true
+playBellSound = true
+spawnCentralTowerInitially = true
+spawnCentralTowerOnResummon = true

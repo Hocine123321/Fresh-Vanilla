@@ -4,7 +4,7 @@
   "validator": {
     "uuids": [],
     "if": {
-      "password": "3963e4ef-694a-4004-a9eb-92958f231027",
+      "password": "1bed7ed6-a4bd-47dc-b297-1f5becae7d40",
       "type": "password"
     },
     "type": "if"

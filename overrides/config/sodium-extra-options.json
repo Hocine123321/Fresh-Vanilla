@@ -17,7 +17,8 @@
   },
   "detail_settings": {
     "sky": true,
-    "sun_moon": true,
+    "sun": true,
+    "moon": true,
     "stars": true,
     "rain_snow": true,
     "biome_colors": true,
@@ -29,8 +30,9 @@
     "multi_dimension_fog_control": false,
     "dimensionFogDistance": {
       "minecraft:overworld": 0,
-      "ad_astra:moon": 0,
-      "ad_astra:earth_orbit": 0,
+      "unseen_world:the_chimeric_darkness": 0,
+      "minecraft:the_end": 0,
+      "eternal_starlight:special_effect": 0,
       "minecraft:the_nether": 0
     },
     "light_updates": true,
@@ -39,8 +41,9 @@
     "painting": true,
     "piston": true,
     "beacon_beam": true,
+    "limit_beacon_beam_height": true,
     "enchanting_table_book": true,
-    "item_frame_name_tag": true,
+    "item_frame_name_tag": false,
     "player_name_tag": true
   },
   "extra_settings": {
@@ -56,17 +59,11 @@
     "toasts": true,
     "advancement_toast": true,
     "recipe_toast": true,
-    "system_toast": true,
-    "tutorial_toast": true,
+    "system_toast": false,
+    "tutorial_toast": false,
     "instant_sneak": false,
     "prevent_shaders": false,
     "steady_debug_hud": true,
     "steady_debug_hud_refresh_interval": 1
-  },
-  "super_secret_settings": {
-    "fetch_sodium_extra_crowdin_translations": false,
-    "sodium_extra_crowdin_project_identifier": "sodium-extra",
-    "fetch_sodium_crowdin_translations": false,
-    "sodium_crowdin_project_identifier": "sodium-fabric"
   }
 }

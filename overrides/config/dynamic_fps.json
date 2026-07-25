@@ -1,0 +1,19 @@
+{
+  "idle": {
+    "timeout": 60,
+    "condition": "none"
+  },
+  "battery_tracker": {
+    "notifications": false
+  },
+  "download_natives": false,
+  "states": {
+    "unplugged": {
+      "frame_rate_target": 60
+    },
+    "abandoned": {
+      "frame_rate_target": 5,
+      "run_garbage_collector": true
+    }
+  }
+}

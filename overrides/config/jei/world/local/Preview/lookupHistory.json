@@ -1,0 +1,11 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"alloy_forgery:bricks_forge_controller"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"alloy_forgery:prismarine_bricks_forge_controller"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"eternal_starlight:forge_armor_trim_smithing_template"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"alloy_forgery:stone_bricks_forge_controller"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"alloy_forgery:polished_blackstone_forge_controller"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"alloy_forgery:end_stone_bricks_forge_controller"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"alloy_forgery:deepslate_bricks_forge_controller"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"simplyswords:sunfire"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
