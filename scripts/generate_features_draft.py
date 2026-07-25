@@ -67,11 +67,8 @@ def clean_desc(desc, limit=180):
 
 def fmt_range(m):
     if m["first_version"] == m["last_version"]:
-        span = f"v{m['first_version']} only"
-    else:
-        span = f"v{m['first_version']} → v{m['last_version']}"
-    status = "**current**" if m["in_latest"] else "retired"
-    return f"{span}, {status}"
+        return f"new in v{m['first_version']}"
+    return f"since v{m['first_version']}"
 
 
 def main():
@@ -81,32 +78,32 @@ def main():
 
     grouped = {}
     for m in mods:
+        if not m["in_latest"]:
+            continue
         grouped.setdefault(bucket_for(m), []).append(m)
 
     lines = []
     lines.append("# Feature List\n")
-    lines.append(f"Every mod that has ever shipped in Fresh Vanilla, grouped by what it actually does in-game, "
-                  f"with the version range it was included in. Generated from Modrinth's own resolved dependency "
-                  f"data (`data/mod-history.json`) across all {len(d['generated_from_versions'])} published versions, "
-                  f"then grouped by hand — descriptions are the mod authors' own, not editorialized.\n")
-    lines.append(f"**Currently on v{latest}.** Mods marked **current** are in that release; everything else is a "
-                  f"retired/replaced feature, kept here so you know what changed and when.\n")
+    lines.append(f"Every mod in the current Fresh Vanilla release (**v{latest}**), grouped by what it "
+                  f"actually does in-game, tagged with which version introduced it. Descriptions are the "
+                  f"mod authors' own. Generated from `data/mod-history.json` — for the full history "
+                  f"including retired/replaced mods, see that file or the version-by-version notes in "
+                  f"`CHANGELOG.md`.\n")
 
     lines.append("## Contents\n")
     toc_order = [b for b, _, _ in BUCKETS if b in grouped]
     for b in toc_order:
         anchor = b.lower().replace(" ", "-").replace("(", "").replace(")", "").replace("&", "").replace(",", "").replace("—", "").replace("/", "")
         anchor = "-".join(filter(None, anchor.split("-")))
-        n_current = sum(1 for m in grouped[b] if m["in_latest"])
-        lines.append(f"- [{b}](#{anchor}) ({n_current} current / {len(grouped[b])} total)")
+        lines.append(f"- [{b}](#{anchor}) ({len(grouped[b])})")
     lines.append("")
 
     for b in toc_order:
-        items = sorted(grouped[b], key=lambda x: (not x["in_latest"], x["title"].lower()))
+        items = sorted(grouped[b], key=lambda x: x["title"].lower())
         is_library_section = b.startswith("Under the Hood")
         lines.append(f"## {b}\n")
         if is_library_section:
-            lines.append("<details>\n<summary>Expand — 23 dependency/API mods, not player-facing on their own</summary>\n")
+            lines.append(f"<details>\n<summary>Expand — {len(items)} dependency/API mods, not player-facing on their own</summary>\n")
         for m in items:
             desc = clean_desc(m["description"])
             lines.append(f"- **[{m['title']}]({m['url']})** — {desc} _({fmt_range(m)})_")
