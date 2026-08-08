@@ -27,7 +27,7 @@ version range each one was included in.
 |---|---|
 | Minecraft | 1.20.1 – 1.21.1 |
 | Loader | Fabric |
-| This source snapshot targets | `1.21.1`, Fabric Loader `0.18.4` (pack v4.5) — see `pack/VERSION` |
+| This source snapshot targets | `1.21.1`, Fabric Loader `0.19.2` (pack v4.6) — see `pack/VERSION` |
 | Environment | Client + Server |
 
 ## Repo structure
