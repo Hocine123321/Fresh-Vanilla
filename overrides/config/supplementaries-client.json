@@ -54,22 +54,31 @@
       "max_angle_1": 30.0,
       // Accepted range: 0.0 to 360.0
       "max_angle_2": 10.0,
+      // Base period in ticks at 0 power of first sine wave
       // Accepted range: 0.0 to 2000.0
       "period_1": 450.0,
+      // This should be kept period_1/3 for a symmetric animation
       // Accepted range: 0.0 to 2000.0
       "period_2": 150.0
     },
     "flag": {
+      // How slow a flag will oscillate. (Period of oscillation)
+      // Lower value = faster oscillation
       // Accepted range: 0 to 10000
       "slowness": 100,
+      // How wavy the animation will be in pixels. (Wavelength)
       // Accepted range: 0.001 to 100.0
       "wavyness": 4.0,
+      // How tall the wave lobes will be. (Wave amplitude)
       // Accepted range: 0.0 to 100.0
       "intensity": 1.0,
+      // How much the wave amplitude increases each pixel. (Amplitude increment per pixel)
       // Accepted range: 0.0 to 10.0
       "intensity_increment": 0.3,
+      // At which graphic settings flags will have a fancy renderer: 0=fast, 1=fancy, 2=fabulous
       // Accepted values: FAST, FANCY, FABULOUS
       "fanciness": "FAST",
+      // Makes flags render as sideways banner. Ignores many of the previously defined configs
       "render_as_banner": false
     },
     "captured_mobs": {
@@ -97,13 +106,26 @@
       "turn_particles": true
     },
     "speaker_block": {
+      // Mute speaker block incoming narrator messages and displays them in chat instead
       "mute_narrator": false
     },
     "rope": {
+      // Amplitude of rope wobbling effect
       // Accepted range: 0.0 to 20.0
       "wobbling_amplitude": 1.2,
+      // Period of rope wobbling effect
       // Accepted range: 0.01 to 200.0
       "wobbling_period": 12.0
+    },
+    "pulley": {
+      // How the topmost moving block of a continuous-mode pulley is clipped
+      // against the pulley body so it appears to disappear into / emerge from it.
+      //  - OFF: no masking, the block may poke through the pulley
+      //  - STENCIL: clean clip using stencil buffer (recommended)
+      //  - DEPTH: simpler depth-buffer clip; can interact poorly with translucent
+      //    blocks (slime, glass, water) rendered after BE pass
+      // Accepted values: OFF, STENCIL, DEPTH
+      "mask_mode": "OFF"
     }
   },
   "particles": {
@@ -117,28 +139,24 @@
     }
   },
   "general": {
-    // General settings
+    // Enable Supplementaries to base textures off external Resource Packs rather than mod's default textures. 
+    "use_external_resource_pack": false,
     // Accepted values: ALWAYS, CACHED, CACHED_ZIPPED, NEVER
     "dynamic_assets_generation_mode": "CACHED_ZIPPED",
     // Disables Optifine warn screen
     "no_optifine_warn_screen": true,
-    // Disables Amendments suggestion screen
-    "no_amendments_screen": true,
     // Disable incompatible mods warning screen
-    "no_incompatible_mods_screen": false,
-    // Enable Quark style config button on main menu. Needs Configured installed to work
-    "config_button": false,
+    "no_incompatible_mods_screen": true,
+    // Enable Quark style config button on main menu
+    "configs_button": true,
     // Config button Y offset
     // Accepted range: -10000 to 10000
-    "config_button_y_offset": 0,
+    "configs_button_y_offset": 0,
     // Show some tooltip hints to guide players through the mod
     "tooltip_hints": true,
     // Show tooltips items that have been made placeable
     "placeable_tooltips": false,
-    // Enables custom Configured config screen
-    "custom_configured_screen": true,
-    // unfunny
-    "I am very boring": true
+    "I am very boring and I don\u0027t want any Easter Egg": false
   },
   "tweaks": {
     // Adds an overlay to projectile weapons in gui displaying currently selected ammo
@@ -156,8 +174,6 @@
     "tooltip_image_size": 80,
     // Wearing mob heads will apply post processing
     "mob_head_shaders": false,
-    // Sends your current chat when you die while typing
-    "send_chat_on_death": true,
     // Makes enderman and spider heads use vanilla texture. Enable for texture pack support
     "enderman_and_spider_head_texture_pack_support": true,
     // Show a slime overlay when you hit an entity with a slimeball

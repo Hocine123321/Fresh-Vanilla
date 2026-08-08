@@ -1,0 +1,47 @@
+{
+  "misc": {
+    "spelunkery_creative_tab": true,
+    // Accepted range: 0 to 128
+    "diamond_grindstone_deplete_chance": 64,
+    "grindstone_disenchants_tools": true,
+    // Accepted range: 0 to 128
+    "parachute_opening_delay": 10,
+    "enable_mores": true,
+    "enable_rough_gems": true,
+    "enable_raw_nuggets": true,
+    "ores_drop_base_stone": false
+  },
+  "utilities": {
+    // Accepted range: 1 to 128
+    "hammer_and_chisel_charge_time": 20,
+    // Accepted range: 1 to 256
+    "tuning_fork_range": 128,
+    // Accepted range: 1 to 256
+    "echo_fork_range": 16,
+    // Accepted range: 1 to 72000
+    "echo_fork_cooldown": 600,
+    // Accepted range: 1 to 72000
+    "echo_glow_duration": 1200,
+    "sculk_drops_with_shears": true,
+    // Accepted range: 1 to 32
+    "magnet_range": 8,
+    // Accepted range: 1 to 512
+    "magnetite_range": 64
+  },
+  "slimes": {
+    "slimes_spawn_in_all_caves": false,
+    "create_slimes_in_cauldrons": true,
+    "slimes_friendly_to_players_with_regeneration": true,
+    "slimes_always_friendly": false,
+    // Accepted range: 1 to 2400
+    "slime_eating_cooldown": 150,
+    "enable_slime_growth": false,
+    // Accepted range: 1 to 127
+    "slime_growth_chance": 10,
+    // Accepted range: 1 to 127
+    "slime_growth_max": 5
+  },
+  "worldgen": {
+    "stone_stripe_features": false
+  }
+}

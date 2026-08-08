@@ -3,7 +3,7 @@
   "fancyQuestToastsEnabled": true,
   "advancementToastsEnabled": true,
   "recipeToastsEnabled": true,
-  "systemToastsEnabled": true,
+  "systemToastsEnabled": false,
   "tutorialToastsEnabled": false,
   "typesToIgnore": {
     "TASK": false,

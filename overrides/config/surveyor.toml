@@ -28,12 +28,12 @@ lazyClientUpdating = true
 # Ignores known landmarks when syncing landmarks to the client
 # A temporary fix until landmarks have some kind of revision counter
 # default: true
-forceUpdateLandmarks = true
+forceUpdateLandmarks = false
 
 [networking]
 	# [Server] Whether to place every player in a single share group
 	# Disables /surveyor share and /surveyor unshare
-	# default: false
+	# default: true
 	globalSharing = false
 	# How much terrain data to send to clients
 	# SERVER sends server-known data, GROUP sends group-known data, SOLO sends player-known data, NONE sends no data
@@ -68,11 +68,11 @@ forceUpdateLandmarks = true
 	# [Server] Ticks per terrain region load for batch update - lower is more frequent
 	# range: 1 - 200
 	# default: 20
-	terrainTicks = 20
+	terrainTicks = 60
 	# [Server] Ticks per position update - lower is more frequent
 	# range: 1 - 200
 	# default: 1
-	positionTicks = 1
+	positionTicks = 20
 
 [builtins]
 	# Which block entities to preserve data for when creating block landmarks.

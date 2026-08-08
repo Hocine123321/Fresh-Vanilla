@@ -1,6 +1,6 @@
 {
   "textureId": "fancytoasts:textures/toast/vanilla.png",
-  "animationId": "fancytoasts:animations/toast/standard",
+  "animationId": "fancytoasts:animations/toast/quirky",
   "soundIds": {
     "TASK": "minecraft:entity.allay.ambient_with_item",
     "GOAL": "minecraft:entity.firework_rocket.twinkle_far",

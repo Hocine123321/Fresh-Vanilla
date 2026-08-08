@@ -1,6 +1,0 @@
-[
-  {"version":1},
-  {"ingredient":{"id":"eternal_starlight:flowglaze_bow"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"supplementaries:slice_map"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"supplementaries:dispenser_minecart"},"type":"item_stack","bookmarkType":"INGREDIENT"}
-]

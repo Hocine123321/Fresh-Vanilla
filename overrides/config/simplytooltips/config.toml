@@ -3,7 +3,7 @@ version = 0
 enableTooltipRendering = true
 
 [general]
-scrollableTooltip = false
+scrollableTooltip = true
 tooltipTabs = true
 applyTooltipsToVanillaItems = true
 applyTooltipsToModItems = true

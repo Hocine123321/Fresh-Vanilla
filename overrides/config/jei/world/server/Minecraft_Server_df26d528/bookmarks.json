@@ -1,4 +1,0 @@
-[
-  {"version":2},
-  {"ingredient":{"id":"minecraft:enchanted_book","components":{"minecraft:stored_enchantments":{"levels":{"nova_structures:illagers_bane":4}}}},"type":"item_stack","bookmarkType":"INGREDIENT"}
-]

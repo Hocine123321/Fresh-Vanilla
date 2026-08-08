@@ -22,5 +22,8 @@
   "lushCaves": {
     "replaceAzaleaTree": true,
     "generateSurfaceMoss": true
+  },
+  "nether": {
+    "generateNetherGoldOreVeins": true
   }
 }

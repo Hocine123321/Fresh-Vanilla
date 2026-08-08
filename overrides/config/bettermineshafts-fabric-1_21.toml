@@ -1,6 +1,6 @@
 minY = -55
 maxY = 30
-disableVanillaMineshafts = true
+disableVanillaMineshafts = false
 
 [spawnRates]
 lanternSpawnRate = 0.0067

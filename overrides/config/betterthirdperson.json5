@@ -2,9 +2,9 @@
 	// Align player to camera on left & right clicks
 	"aimOnInteract": true,
 	// How long player will be aligned to camera after left & right clicks
-	"aimDuration": 25,
+	"aimDuration": 20,
 	// Angle in degrees within the player will slightly follow camera yaw (while standing still)
-	"followYaw": 40,
+	"followYaw": 30,
 	// Does camera should rotate freely during elytra flight
 	"freeCameraDuringElytraFlight": false,
 	// Completely remove third-person front view

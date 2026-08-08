@@ -10,10 +10,11 @@
   "advancementTabsEnabled": false,
   "worldIconEnabled": true,
   "serverIconEnabled": true,
-  "remapCursorsEnabled": true,
+  "remapCursorsEnabled": false,
   "inactiveWidgetsEnabled": true,
   "aggressiveCursor": false,
   "virtualMode": false,
+  "veilImGuiDisableCursorChanges": false,
   "blacklist": [],
   "global": {
     "scaleActive": true,
@@ -68,6 +69,7 @@
     },
     "busy": {
       "enabled": true,
+      "animated": true,
       "scale": 1.0,
       "xhot": 13,
       "yhot": 17

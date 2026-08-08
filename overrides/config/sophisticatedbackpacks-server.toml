@@ -17,7 +17,7 @@
 	#Allows disabling item display settings. Primarily in cases where custom backpack model doesn't support showing the item. (Requires game restart to take effect)
 	itemDisplayDisabled = false
 	#Allows disabling logic that dedupes backpacks with the same UUID in players' inventory. This is here to allow turning off the logic just in case it would be causing performance issues.
-	tickDedupeLogicDisabled = false
+	tickDedupeLogicDisabled = true
 	#Determines if backpacks can be placed in container items (those that check for return value of canFitInsideContainerItems)
 	canBePlacedInContainerItems = false
 

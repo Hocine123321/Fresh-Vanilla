@@ -1,6 +1,6 @@
 {
   "idle": {
-    "timeout": 60,
+    "timeout": 900,
     "condition": "none"
   },
   "battery_tracker": {
@@ -8,12 +8,22 @@
   },
   "download_natives": false,
   "states": {
+    "unfocused": {
+      "frame_rate_target": -1
+    },
+    "hovered": {
+      "frame_rate_target": 10,
+      "show_toasts": false
+    },
     "unplugged": {
       "frame_rate_target": 60
     },
     "abandoned": {
-      "frame_rate_target": 5,
+      "frame_rate_target": 15,
       "run_garbage_collector": true
+    },
+    "invisible": {
+      "frame_rate_target": 1
     }
   }
 }

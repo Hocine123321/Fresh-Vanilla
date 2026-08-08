@@ -1,9 +1,11 @@
 {
   "redstone": {
     "speaker_block": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // Enable/disable speaker block narrator mode
       "narrator_enabled": true,
+      // Max text
       // Accepted range: 0 to 10000
       "max_text": 32,
       // note that it will still only keep alive the two fire blocks closer to it
@@ -11,12 +13,19 @@
       "range": 64
     },
     "bellows": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // bellows pushes air following this equation: 
+      // air=(sin(2PI*ticks/period)<0), with period = base_period-(redstone_power-1)*power_scaling 
+      // represents base period at 1 power
       // Accepted range: 1 to 512
       "base_period": 78,
+      // Cannonball power scaling. Higher values will make cannonballs have more energy. Reminder that the damage and breaking power of a cannonball is proportional to its energy (speed squared) times this constant
       // Accepted range: 0.0 to 100.0
       "power_scaling": 2.0,
+      // velocity increase uses this equation: 
+      // vel = base_vel*((range-entity_distance)/range) with base_vel = base_velocity_scaling/period 
+      // note that the block will push further the faster it's pulsing
       // Accepted range: 0.0 to 64.0
       "base_velocity_scaling": 5.0,
       // note that it will still only keep alive the two fire blocks closer to it
@@ -24,47 +33,71 @@
       "range": 5
     },
     "spring_launcher": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // spring launcher launch speed
       // Accepted range: 0.0 to 16.0
       "velocity": 1.5,
+      // fall distance needed to trigger the automatic spring launch
       // Accepted range: 0 to 512
       "fall_height_required": 5
     },
     "enderman_head": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
       "drop_head": true,
+      // Time to increase 1 power level when being looked at
       // Accepted range: 0 to 10000
       "ticks_to_increase_power": 15,
+      // do enderman heads work when looked from any side?
       "work_from_any_side": false
     },
     "turn_table": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // can rotate entities standing on it?
       "rotate_entities": true,
+      // Allows turn table to shuffle containers content when rotated over horizontal axis
       "shuffle_containers": true
     },
     "pulley_block": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // If true, pulleys retract their rope chain over multiple ticks, animating each block via vanilla moving-piston entities. 
+      // Connected blocks become moving blocks (so they push entities, drop sand etc) and multiple pulleys can cooperate to pull a single heavy contraption, useful for elevators. 
+      // If false, the original instant retraction behavior is used.
+      "continuous_retraction": true,
+      // If true, multiple pulleys firing on the same tick with the same period and push direction can pool their pull budget into one structure resolve, letting two ropes share a wide elevator platform. Only relevant when 'continuous_retraction' is enabled.
+      "cooperative_pulleys": true,
+      // Maximum number of NON-rope blocks a single pulley can drag (the anchor and anything sticky-attached to it). Rope segments don't count toward this. Cooperating pulleys pool their budgets: two pulleys can pull twice this many blocks together.
+      // Accepted range: 1 to 128
+      "pull_limit": 8,
+      // Ticks to wait between unit pulls when continuous_retraction is enabled. 
+      // Lower = faster pulley. Minimum 2 ticks because each animation takes that long to play out, going lower has no effect.
+      // Accepted range: 2 to 100
+      "pull_interval": 4,
+      // Chance for a new mineshaft elevator piece to spawn
       // Accepted range: 0.0 to 1.0
       "mineshaft_elevator": 0.035
     },
     "dispenser_minecart": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // Makes projectiles shot from dispenser minecart retain the minecart velocity and be shot at an angle when the minecart is on a rail slope
       "adjust_projectile_angle": true
     },
     "faucet": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // Turn off to prevent faucets from dropping items
       "spill_items": true,
+      // Allows faucets to fill entities inventories
       "fill_entities_below": false
     },
     "crystal_display": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // Allows chaining 2 crystal displays, letting one power the other to its left IF its own power exceeds 10. Given power will be its own divided by 10. Note that to work the decimal display must NOT have power directly behind it. Doing so will override the behavior to non chaining mode
       "chaining": true
     },
     "wind_vane": true,
@@ -79,69 +112,98 @@
   },
   "functional": {
     "rope": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // Allows ropes to be supported & attached to solid block sides
       "block_side_attachment": true,
+      // Makes sliding down ropes as fast as free falling, still negating fall damage
       "slide_on_fall": true,
+      // Enables horizontal placement of ropes. Disabling will make ropes always non solid
       "horizontal_ropes": true
     },
     "jar": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // Max number of rope items allowed to be stored inside a rope arrow
       // Accepted range: 1 to 256
       "capacity": 12,
+      // Allow right click to instantly eat or drink food or potions inside a placed jar.
+      // Disable if you think this ability is op (honey for example). Cookies are excluded
       "drink_from_jar": false,
+      // Allows the player to directly drink from jar items
       "drink_from_jar_item": false,
+      // Dynamically allows all small mobs inside jars depending on their hitbox size
       "jar_auto_detect": false,
+      // Allow Jars to capture small mobs
       "jar_capture": true,
+      // Allow Jars to hold cookies
       "jar_cookies": true,
+      // Allow Jars to hold liquids from bottles, buckets and bowls
       "jar_liquids": true
     },
     "cage": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // Allows all entities to be captured by cages and jars. Not meant for survival
       "allow_all_mobs": false,
+      // Allows all baby mobs to be captured by cages
       "cage_allow_all_babies": false,
+      // Dynamically allows all small mobs inside cages depending on their hitbox size
       "cage_auto_detect": false,
+      // Makes it so all (hostile) mobs captured by cages and jars will be set to persistent so they won't despawn when released
       "persistent_mobs": false,
+      // Health percentage under which mobs will be allowed to be captured by cages and jars. Leave at 100 to accept any health level
       // Accepted range: 1 to 100
       "health_threshold": 100,
+      // When on, if a mob is tameable, it will only be capturable when tamed.
       "require_taming": true
     },
     "safe": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // Makes safes only breakable by their owner or by a player in creative
       "prevent_breaking": false,
+      // Make safes simpler so they do not require keys:
+      // they will be bound to the first person that opens one and only that person will be able to interact with them
       "simple_safes": false
     },
     "sack": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // Penalize the player with slowness effect when carrying too many sacks
       "sack_penalty": true,
+      // Maximum number of sacks after which the overencumbered effect will be applied. Each multiple of this number will increase the effect strength by one
       // Accepted range: 1 to 50
       "sack_increment": 2,
+      // Arrow stacks that can fit inside a lunch basket. Requires reboot
       // Accepted range: 1 to 9
       "slots": 9
     },
     "bamboo_spikes": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
       "tipped_spikes": true,
+      // Allows entities killed by spikes to drop loot as if they were killed by a player
       "player_loot": false,
+      // Alternative mode for bamboo spikes. Allows only harmful effects to be applied on them and they obtain infinite durability
       "only_allow_harmful_effects": true,
+      // Populate the creative inventory with all tipped spikes variations
       "populate_creative_tab": true
     },
     "urn": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // Chance for an urn to spawn a critter from the urn_spawn tag
       // Accepted range: 0.0 to 1.0
       "critter_spawn_chance": 0.01,
       "cave_urns": true
     },
     "soap": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // Allows soap to clean blocks in-world. Disable to prevent in-world block cleaning while keeping soap item and recipes functional
       "block_cleaning_enabled": true,
+      // Dyed Bock/Item types that cannot be cleaned with soap
       "clean_blacklist": [
         "minecraft:glazed_terracotta",
         "botania:mystical_flower",
@@ -159,6 +221,7 @@
         "xycraft_world:glowing_matte_rgb_block",
         "xycraft_world:rgb_lamp_pole"
       ],
+      // This is a map of special blocks that can be cleaned with soap. For items you will also need to add a recipe
       "special_blocks": {
         "#alexscaves:cave_paintings": "alexscaves:smooth_limestone",
         "quark:dirty_glass": "minecraft:glass",
@@ -167,58 +230,67 @@
       }
     },
     "cannon": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // Makes TNT-like block shot from a cannon explode on impact
       // Accepted values: IGNITE, IGNITE_ON_IMPACT, NONE
       "explode_tnt": "IGNITE",
+      // Cannon fire power multiplier
       // Accepted range: 0.0 to 5.0
       "fire_power": 0.6,
+      // Time for a cannon to fire a projectile after it has been lit up
       // Accepted range: 0 to 500
       "fuse_time": 40,
-      // Accepted range: 0 to 500
+      // Enable bomb item cooldown
       "cooldown": 60,
       "cannon_boat": {
-        // Adds dragon banner pattern made from dragon head
+        // Allow books and enchanted books to be placed on the ground
         "enabled": true,
+        // Cannon boat recoil multiplier. Higher values will make the cannon boat recoil more when firing a cannonball
         // Accepted range: 0.0 to 5.0
         "recoil_multiplier": 0.5
       },
       "cannonball": {
-        // Adds dragon banner pattern made from dragon head
+        // Allow books and enchanted books to be placed on the ground
         "enabled": true,
+        // Cannonball power scaling. Higher values will make cannonballs have more energy. Reminder that the damage and breaking power of a cannonball is proportional to its energy (speed squared) times this constant
         // Accepted range: 0.0 to 100.0
         "power_scaling": 3.5,
+        // Radius of the 'explosion' when a cannonball hits a block. Set to 0 to disable
         // Accepted range: 0.0 to 10.0
         "break_radius": 1.1
       },
       "plunderer": {
-        // Adds dragon banner pattern made from dragon head
+        // Allow books and enchanted books to be placed on the ground
         "enabled": true,
         "galleon": true
       },
       "music_disc_heave_ho": true
     },
     "present": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
       "trapped_present": true
     },
     "flax": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
       "wild_flax": true
     },
     "lumisene": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
       "lumisene_bottle": {
-        // Adds dragon banner pattern made from dragon head
+        // Allow books and enchanted books to be placed on the ground
         "enabled": true,
+        // Duration of the flammable effect when you drink a lumisene bottle
         // Accepted range: 0 to 10000
         "flammable_duration": 300,
+        // Duration of the glowing effect when you drink a lumisene bottle
         // Accepted range: 0 to 10000
         "glowing_duration": 200
       },
+      // Gives the flammable effext also when merely stepping on lumisene. Turning this off if you think effects are not something that should be applied like that and just by drinking it.
       // Accepted range: 0 to 10000
       "flammable_from_lumisene_block_duration": 50
     },
@@ -227,162 +299,197 @@
   },
   "building": {
     "spider_head": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true
     },
     "barnacles": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true
     },
     "blackboard": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // Enable to draw directly on a blackboard using any dye. Gui still only works in black and white
       "colored_blackboard": false,
+      // Interaction mode for blackboards
       // Accepted values: BOTH, GUI, MANUAL
       "interaction_mode": "BOTH"
     },
     "gravel_bricks": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // Allows gravel bricks to break when fallen upon or when an entity walks on them with enough falling speed
       "allow_breaking": true
     },
     "slidy_block": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // Number of ticks it takes for gunpowder to burn 1 stage (out of 8). Increase to slow it down
       // Accepted range: 0 to 20
       "speed": 0.125
     },
     "timber_frame": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // Allow placing a timber frame directly on a block by holding shift
       "swap_on_shift": false,
+      // Allows axes to remove a framed block leaving the contained block intact
       "axes_strip": true,
+      // Replace a timber frame with wattle and daub block when daub is placed in it
       "replace_daub": true
     },
     "iron_gate": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // Allows two iron gates to be opened simultaneously when on top of the other
       "double_opening": true,
+      // Makes iron (ang gold) gates behave like their door counterpart so for example iron gates will only be openable by redstone
       "door-like_gates": false
     },
     "gold_bars": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true
     },
     "item_shelf": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // Makes item shelves climbable
       "climbable_shelves": false
     },
     "sugar_cube": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // Duration in seconts of speed effect garanted to horses that eat a sugar cube
       // Accepted range: 0 to 1000
       "horse_speed_duration": 10
     },
     "planter": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // Makes so saplings that grow in a planter will break it turning into rooted dirt
       "broken_by_sapling": false,
+      // When Farmers Delight is on planter will also act like rich soil and use it in its recipe
       "rich_soil_planter": true
     },
     "notice_board": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // Allows notice boards to accept and display any item, not just maps and books
       "allow_any_item": false,
+      // Enables a GUI for the block. Not needed as the block just holds one item which you can place by clicking on it
       "gui": true
     },
     "pedestal": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true
     },
     "ash": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // Burnable blocks will have a chance to create ash layers when burned. Greater this number the greater the chance will be
       // Accepted range: 0.0 to 1.0
       "ash_from_fire_chance": 1.0,
+      // Allows rain to wash away ash layers overtime
       "rain_wash_ash": true,
+      // Use a datapack to tweak rarity
       "basalt_ash": true
     },
     "flag": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // Allows right/left clicking on a stick to lower/raise a flag attached to it
       "stick_pole": true,
+      // Maximum allowed pole length
       // Accepted range: 0 to 256
       "pole_length": 16
     },
     "goblet": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // Allows drinking from goblets
       "allow_drinking": true
     },
     "globe": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // Displays current coordinates when using a globe
       "show_coordinates": true,
       "sepia_globe": true
     },
     "way_sign": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
       "road_signs": {
-        // Adds dragon banner pattern made from dragon head
+        // Allow books and enchanted books to be placed on the ground
         "enabled": true,
+        // With this option road signs will display the distance to the structure that they are pointing to
         "show_distance_text": true,
+        // Maximum number of structure types from the tag that road signs will attempt to look for every time. Decrease to speed up search at the cost of making them not point to the nearest structure out of all. Also if made too low and in cases it were to pick a structure that only spawns very rarely, this would actually slow down the search
         // Accepted range: 1 to 1000
         "max_search_radius": 200,
+        // Speeds up way sign feature searching by making the search stop at the first found structure. This means that way signs won't point to the nearest structure anymore
         "exit_search_early": true,
+        // Select a random structure to look for instead of iterating through all of the ones in the tag returning the closest. Turning on will make ones that have diff structures (aka all different ruined portals) show up more. Increasing the number past 1 will allow x random structures to be picked instead. this can possibly speed up search as it decreases chances to find far away ones
         // Accepted range: 1 to 1000
         "max_structures_searches": 12
       }
     },
     "daub": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
       "wattle_and_daub": true
     },
     "ash_bricks": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true
     },
     "hat_stand": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // Allow all items to go on hat stand
       "unrestricted": false
     },
     "awning": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // Allows having slanted awnings. Disabled if you feel its cursed.
       "slant": true,
+      // Allows entities to fall through awnings, when shifting.
       "shift_through": true,
+      // Bouncing angle of slanted awnings
       // Accepted range: 0.0 to 90.0
       "angle": 69.44395478041653
     },
     "flower_box": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // Makes so flower boxes can only contain one tall flower item per block
       "simple_mode": true
     },
     "netherite_doors": {
       "door": true,
       "trapdoor": true,
+      // Makes netherite doors and trapdoors unbreakable
       "unbreakable": false
     },
     "lapis_bricks": true,
+    "brittlestone": true,
     "deepslate_lamp": true,
     "end_stone_lamp": true,
     "blackstone_lamp": true,
     "stone_lamp": true,
     "stone_tile": true,
     "blackstone_tile": true,
+    // Buntings are automatically disabled if 'rope' feature is disabled
     "bunting": true,
     "sconce": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
       "sconce_lever": true
     },
     "pancake": true,
     "checker_block": true,
+    // allow gravel to be raked with a hoe
     "raked_gravel": true,
     "feather_block": true,
     "statue": true,
@@ -395,104 +502,139 @@
   },
   "tools": {
     "quiver": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // Allows using a quiver without being slowed down
       "use_without_slow": true,
+      // Arrow stacks that can fit inside a lunch basket. Requires reboot
       // Accepted range: 1 to 9
       "slots": 6,
+      // Increase this number to alter the probability for a Skeleton with quiver to spawn. Note that this also depends on local difficulty so you wont ever see them on easy and very rarely on normal. Similar logic to equipment
       // Accepted range: 0.0 to 1.0
       "quiver_skeleton_spawn_chance": 0.03,
+      // If enabled, the quiver skeleton spawn chance will depend on the local difficulty of the world. If disabled, it will always be the same
       "quiver_skeleton_spawn_depend_on_global_difficulty": true,
+      // Allows quiver to only be used when in offhand or in curio invSlot
       "only_works_in_curio": false,
+      // Arrows you pickup will try to go in a quiver if available provided it has some arrow of the same explosionType
       "quiver_pickup": true
     },
     "lunch_basket": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // Allows lunch baskets to be placed on the ground
       "placeable": true,
+      // Arrow stacks that can fit inside a lunch basket. Requires reboot
       // Accepted range: 1 to 9
       "slots": 6
     },
     "slice_map": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // Slingshot range multiplier. Affect the initial projectile speed
       // Accepted range: 0.0 to 5.0
       "range_multiplier": 0.25
     },
     "bubble_blower": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // Amount of soap consumed per bubble block placed
       // Accepted range: 1 to 25
       "stasis_cost": 5,
       "bubble_block": {
+        // Max lifetime of bubble blocks. Set to 10000 to have it infinite
         // Accepted range: 1 to 10000
         "lifetime": 1200,
+        // Can bubble break when touched on?
         "break_when_touched": true,
+        // Max number of charges a bubble blower can hold
         // Accepted range: 1 to 1000000
         "max_charges": 200
       }
     },
     "wrench": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // Allows wrenches to bypass a block interaction action prioritizing their own when on said hand
       // Accepted values: MAIN_HAND, OFF_HAND, BOTH, NONE
       "bypass_when_on": "MAIN_HAND"
     },
     "rope_arrow": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // Max number of rope items allowed to be stored inside a rope arrow
       // Accepted range: 1 to 256
       "capacity": 32,
+      // Makes rope arrows exclusive to crossbows
       "exclusive_to_crossbows": false
     },
     "flute": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // Allows flute to be unbound. Unbound flutes will search for pets in a radius and teleport them to the player
       "unbound": false,
+      // Radius in which an unbound flute will search pets
       // Accepted range: 0 to 500
       "unbound_radius": 64,
+      // Max distance at which a bound flute will allow a pet to teleport
       // Accepted range: 0 to 500
       "bound_distance": 64
     },
     "bomb": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // Bomb explosion radius (damage depends on this)
       // Accepted range: 0.1 to 10.0
       "explosion_radius": 2.0,
+      // Do bombs break blocks like tnt?
       // Accepted values: ALL, WEAK, NONE
       "break_blocks": "WEAK",
+      // Put here any number other than 0 to have your bombs explode after a certain amount of ticks instead than on contact
       // Accepted range: 0 to 100000
       "bomb_fuse": 0,
-      // Accepted range: 0 to 500
+      // Enable bomb item cooldown
       "cooldown": true,
       "blue_bomb": {
+        // Bomb explosion radius (damage depends on this)
         // Accepted range: 0.1 to 10.0
         "explosion_radius": 5.15,
+        // Do bombs break blocks like tnt?
         // Accepted values: ALL, WEAK, NONE
         "break_blocks": "WEAK"
       }
     },
     "slingshot": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // Slingshot range multiplier. Affect the initial projectile speed
       // Accepted range: 0.0 to 5.0
       "range_multiplier": 1.0,
+      // Time in ticks to fully charge a slingshot
       // Accepted range: 0 to 100
       "charge_time": 20,
+      // Deceleration for the stasis projectile
       // Accepted range: 0.1 to 1.0
       "stasis_deceleration": 0.9625,
+      // Allow enderman to intercept any slingshot projectile
       "unrestricted_enderman_intercept": true,
+      // Allows buckets to be thrown by slingshots. Thrown buckets will place their content when they land
       "allow_buckets": true,
+      // Damage that items in the 'supplementaries:slingshot_damageable' tag will deal. Scales with thrown speed. Tag is empty by default.
       // Accepted range: 0.0 to 100.0
       "damageable_damage": 0.5,
+      // Allows splash potions to be thrown by slingshots
       "allow_splash_potions": false,
+      // Allows bombs to be thrown by slingshots
       "allow_bombs": false,
+      // Allows fire charges to be thrown by slingshots
       "allow_fire_charges": false,
+      // Allows snowballs to be thrown by slingshots
       "allow_snowballs": false,
+      // Allows enderpearls to be thrown by slingshots
       "allow_enderpearls": false
     },
     "antique_ink": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true
     },
     "candy": true,
@@ -502,120 +644,148 @@
   },
   "general": {
     // Accepted values: ALWAYS, CACHED, CACHED_ZIPPED, NEVER
-    "dynamic_assets_generation_mode": "CACHED",
-    "creative_tab": false,
+    "dynamic_assets_generation_mode": "CACHED_ZIPPED",
+    // Enable Creative Tab
+    "creative_tab": true,
+    // Set to false to disable custom dispenser behaviors (i.e: filling jars) if for some reason they are causing trouble
     "dispensers": true,
+    // Disable startup messages and sanity check that the mod performs to inform of possible detected crashes that might occur due to issues
     "sanity_checks_messages": true,
+    // slightly increase this or decrease this number to tweak the red merchant spawn chance. Won't spawn at 0 and will spawn twice as often on 2
     // Accepted range: 0.0 to 10.0
     "red_merchant_spawn_multiplier": 1.0
   },
   "tweaks": {
-    "dragon_banner_pattern": {
-      // Adds dragon banner pattern made from dragon head
-      "enabled": true
-    },
+    // Adds dragon banner pattern made from dragon head
+    "dragon_banner_pattern": true,
     "ai_tweaks": {
       // Allows pillagers to use cannon boats. Add more entities to the 'supplementaries:can_use_cannon_boat' tag to allow them to use cannon boats as well
       "pillagers_use_cannon_boats": true,
-      // Allows mobs to dismount from boats when on land. Add more entities to the 'supplementaries:can_dismount_boats' tag to allow them to dismount as well
-      "raiders_dismount_boats": true
+      // Allows mobs (like raiders and endermen) to dismount from boats when on land. Add more entities to the 'supplementaries:can_dismount_boats' tag to allow them to dismount as well
+      "smart_boat_dismount": true,
+      // Allows traders to open doors (because they couldn't apparently)
+      "traders_open_doors": true,
+      // Noteblocks with a zombie head will scare off villagers
+      "noteblock_scare": true
     },
-    "golden_apple_disenchant": {
-      // Adds dragon banner pattern made from dragon head
-      "enabled": true
-    },
-    "traders_open_doors": {
-      // Adds dragon banner pattern made from dragon head
-      "enabled": true
-    },
+    "golden_apple_disenchant": true,
     "dispenser_tweaks": {
+      // Allows dispensers to use axes on blocks to strip logs and scrape off copper oxidation and wax
       "axe_strip": true,
+      // Enables shooting ender pearls with dispensers
       "shoot_ender_pearls": true,
+      // Enables extracting bundles items with dispensers
       "extract_from_bundles": true
     },
     "throwable_bricks": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true
     },
     "placeable_sticks": {
+      // Allow placeable sticks
       "sticks": true,
+      // Allow placeable blaze rods
       "blaze_rods": true
     },
     "placeable_gunpowder": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // Number of ticks it takes for gunpowder to burn 1 stage (out of 8). Increase to slow it down
       // Accepted range: 0 to 20
       "speed": 2,
+      // Age at which it spread to the next gunpowder block. Also affects speed
       // Accepted range: 0 to 8
       "spread_age": 2
     },
-    "raked_gravel": {
-      // Adds dragon banner pattern made from dragon head
-      "enabled": true
-    },
+    // allow gravel to be raked with a hoe
+    "raked_gravel": true,
     "bottle_xp": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": false,
+      // bottling health cost
       // Accepted range: 0 to 20
       "cost": 2,
+      // Block that should be clicked on for bottling to work. Leave blank for enchanting table. You can put another block here from another mod if you find it more fitting
       "target_block": ""
     },
     "map_tweaks": {
       "random_adventurer_maps": {
-        // Adds dragon banner pattern made from dragon head
+        // Allow books and enchanted books to be placed on the ground
         "enabled": true,
+        // Maximum number of structure types from the tag that road signs will attempt to look for every time. Decrease to speed up search at the cost of making them not point to the nearest structure out of all. Also if made too low and in cases it were to pick a structure that only spawns very rarely, this would actually slow down the search
         // Accepted range: 1 to 1000
         "max_search_radius": 100,
+        // Select a random structure to look for instead of iterating through all of the ones in the tag returning the closest. Turning on will make ones that have diff structures (aka all different ruined portals) show up more. Increasing the number past 1 will allow x random structures to be picked instead. this can possibly speed up search as it decreases chances to find far away ones
         // Accepted range: 1 to 1000
         "max_structures_searches": 1
       },
+      // Enables beacons, lodestones, respawn anchors, beds, conduits, portals to be displayed on maps by clicking one of them with a map
       "block_map_markers": true,
+      // Shows a death marker on your map when you die. Requires a recovery compass in player inventory or similar
       // Accepted values: OFF, WITH_COMPASS, ALWAYS
       "death_marker": "WITH_COMPASS",
+      // Makes blocks tagged as 'tinted_on_map' use their tint color. This allows for accurate biome colors for water and grass as well as other custom block that use any tint
       "tinted_blocks_on_maps": true
     },
     "placeable_books": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // Allow all books to be placed both vertically and horizontally
       "mixed_books": false
     },
     "zombie_horse": {
+      // Feed a stack of rotten flesh to a skeleton horse to buff him up to a zombie horse
       "zombie_horse_conversion": true,
+      // Amount of rotten flesh needed
       // Accepted range: 1 to 1000
       "rotten_flesh": 64,
+      // Allows zombie horses to be ridden underwater
       "rideable_underwater": true,
+      // Convert a zombie horse back by feeding it a golden carrot
       "zombie_horse_inverse_conversion": true
     },
-    "noteblocks_scare": {
-      // Adds dragon banner pattern made from dragon head
-      "enabled": true
-    },
     "bad_luck_tweaks": {
+      // If you have unluck you are more likely to get hit by a lighting. Holding a lightning rod also causes this
       "lightning_unluck": true
     },
-    "item_lore": {
-      // Adds dragon banner pattern made from dragon head
-      "enabled": true
-    },
-    "sus_recipes": {
-      // Adds dragon banner pattern made from dragon head
-      "enabled": true
+    "extra_crafting": {
+      // Adds a recipe to add 'lore' strings to an item by combining it with a named nametag
+      "item_lore": true,
+      // Adds recipes to craft suspicious gravel and suspicious sand
+      "sus_recipes": true
     },
     "slimed_effect": {
-      // Adds dragon banner pattern made from dragon head
+      // Allow books and enchanted books to be placed on the ground
       "enabled": true,
+      // Allow slimeballs to be thrown
       "throwable_slimeballs": true,
+      // Thrown slimeballs will shortly nerf the player jump height. Disable if you don't want this effect as it can be quite powerful
       // Accepted values: NEVER, ALWAYS, NORMAL_DIFFICULTY, HARD_DIFFICULTY
       "hinders_jump": "NORMAL_DIFFICULTY",
+      // Duration of the slimed effect in ticks
       // Accepted range: 0 to 1000
       "duration": 300,
+      // Chance that a slime mob will apply slimed effect on successful attack. Multiplied by the slime size
       // Accepted range: 0.0 to 1.0
       "chance_per_slime_size": 0.15
     },
     "clock_and_compass": {
+      // Allow to right click with a clock to display current time in numerical form
       "clock_right_click": true,
+      // Allow to right click with a compass to display current coordinates in numerical form
       "compass_right_click": false,
+      // Allow these features to work in dimensions like nether or end where normally clocks don't work
       "works_in_unnatural_dimensions": false
+    },
+    "piston_tweaks": {
+      // If true, pistons can push blocks that have a block entity (e.g. chests, furnaces). Blocks whose push reaction is BLOCK are still immovable regardless of this setting.
+      // Quark takes priority here: while its 'pistons move tile entities' module is enabled this option does nothing and Quark handles piston moves instead, since the two implementations would otherwise both rebuild the moved block entity and wipe its contents. Turn that module off to use this one, which supports more cases (pulleys, cauldron filling, cooperative pistons).
+      // Pulleys and ropes follow whichever implementation is active, so turning both off stops them from moving block entities too.
+      "push_block_entities": true,
+      // If true, adjacent pistons facing the same direction can pool their 12-block push budget to move structures larger than a single piston could handle alone (e.g. two side-by-side pistons pushing a 24-block slime contraption). Only triggers when a single piston's vanilla resolve would fail.
+      "cooperative_pistons": true,
+      // If true, pushing an empty cauldron into a water or lava source (with a piston or a pulley) fills it with that fluid, instead of leaving it empty. Also tops up cauldrons being moved.
+      "moved_cauldron_filling": true
     }
   }
 }

@@ -18,9 +18,10 @@
     "4.2",
     "4.3",
     "4.4",
-    "4.5"
+    "4.5",
+    "4.6"
   ],
-  "latest_release": "4.5",
+  "latest_release": "4.6",
   "mods": [
     {
       "project_id": "GDnm1VHj",
@@ -51,10 +52,29 @@
       "project_type": "resourcepack",
       "url": "https://modrinth.com/resourcepack/aa4-structure-markers",
       "appeared_in": [
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "4.5",
-      "last_version": "4.5",
+      "last_version": "4.6",
+      "in_latest": true
+    },
+    {
+      "project_id": "tb5O1ssC",
+      "slug": "abridged",
+      "title": "Abridged",
+      "description": "Bridges big and small across rivers and valleys.",
+      "categories": [
+        "adventure",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/abridged",
+      "appeared_in": [
+        "4.6"
+      ],
+      "first_version": "4.6",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -120,11 +140,31 @@
       "project_type": "mod",
       "url": "https://modrinth.com/mod/advancement-plaques",
       "appeared_in": [
-        "2.1"
+        "2.1",
+        "4.6"
       ],
       "first_version": "2.1",
-      "last_version": "2.1",
-      "in_latest": false
+      "last_version": "4.6",
+      "in_latest": true
+    },
+    {
+      "project_id": "WR8cPQDg",
+      "slug": "adventure-panorama",
+      "title": "Adventure Panorama",
+      "description": "A new look for Minecraft's menu",
+      "categories": [
+        "gui",
+        "tweaks",
+        "vanilla-like"
+      ],
+      "project_type": "resourcepack",
+      "url": "https://modrinth.com/resourcepack/adventure-panorama",
+      "appeared_in": [
+        "4.6"
+      ],
+      "first_version": "4.6",
+      "last_version": "4.6",
+      "in_latest": true
     },
     {
       "project_id": "defK2XM3",
@@ -172,7 +212,7 @@
       ],
       "first_version": "2.1",
       "last_version": "4.5",
-      "in_latest": true
+      "in_latest": false
     },
     {
       "project_id": "ulloLmqG",
@@ -186,10 +226,11 @@
       "project_type": "mod",
       "url": "https://modrinth.com/mod/another-furniture",
       "appeared_in": [
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "4.5",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -208,10 +249,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "4.2",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -285,10 +327,30 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
+      "in_latest": true
+    },
+    {
+      "project_id": "zNIFIvC4",
+      "slug": "ashen-16x-custom-font",
+      "title": "Ashen 16x Custom Font",
+      "description": "A custom, medieval-fantasy-inspired, 16x font for Minecraft.",
+      "categories": [
+        "16x",
+        "fonts",
+        "themed"
+      ],
+      "project_type": "resourcepack",
+      "url": "https://modrinth.com/resourcepack/ashen-16x-custom-font",
+      "appeared_in": [
+        "4.6"
+      ],
+      "first_version": "4.6",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -330,10 +392,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "4.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -352,10 +415,11 @@
         "3.3",
         "3.4",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "3.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -374,10 +438,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "4.0",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -399,6 +464,42 @@
       "in_latest": false
     },
     {
+      "project_id": "bmOyRapU",
+      "slug": "better-world-loading",
+      "title": "Better World Loading",
+      "description": "Adds more info to the world loading screen",
+      "categories": [
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/better-world-loading",
+      "appeared_in": [
+        "4.6"
+      ],
+      "first_version": "4.6",
+      "last_version": "4.6",
+      "in_latest": true
+    },
+    {
+      "project_id": "zZQBkAbo",
+      "slug": "biome_bloom",
+      "title": "BiomeBloom",
+      "description": "Transforms sky, fog, and water colors across every biome for a richer, more atmospheric Minecraft experience.",
+      "categories": [
+        "environment",
+        "realistic",
+        "vanilla-like"
+      ],
+      "project_type": "resourcepack",
+      "url": "https://modrinth.com/resourcepack/biome_bloom",
+      "appeared_in": [
+        "4.6"
+      ],
+      "first_version": "4.6",
+      "last_version": "4.6",
+      "in_latest": true
+    },
+    {
       "project_id": "Ds9FyUc7",
       "slug": "blooming-biosphere",
       "title": "Blooming Biosphere",
@@ -414,10 +515,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "4.0",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -479,10 +581,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -531,10 +634,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -562,10 +666,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -588,7 +693,7 @@
       ],
       "first_version": "4.0",
       "last_version": "4.5",
-      "in_latest": true
+      "in_latest": false
     },
     {
       "project_id": "DnNYdJsx",
@@ -616,7 +721,7 @@
       ],
       "first_version": "3.0",
       "last_version": "4.5",
-      "in_latest": true
+      "in_latest": false
     },
     {
       "project_id": "Wb5oqrBJ",
@@ -639,7 +744,7 @@
       ],
       "first_version": "4.0",
       "last_version": "4.5",
-      "in_latest": true
+      "in_latest": false
     },
     {
       "project_id": "fgmhI8kH",
@@ -673,10 +778,11 @@
       "url": "https://modrinth.com/mod/chunky",
       "appeared_in": [
         "2.2",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.2",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -702,10 +808,28 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
+      "in_latest": true
+    },
+    {
+      "project_id": "e0M1UDsY",
+      "slug": "collective",
+      "title": "Collective",
+      "description": "\ud83c\udf93 Collective is a shared library with common code for all of Serilum's mods.",
+      "categories": [
+        "library"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/collective",
+      "appeared_in": [
+        "4.6"
+      ],
+      "first_version": "4.6",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -742,10 +866,46 @@
       "project_type": "mod",
       "url": "https://modrinth.com/mod/completionists-index",
       "appeared_in": [
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "4.5",
-      "last_version": "4.5",
+      "last_version": "4.6",
+      "in_latest": true
+    },
+    {
+      "project_id": "VSNURh3q",
+      "slug": "c2me-fabric",
+      "title": "Concurrent Chunk Management Engine (Fabric)",
+      "description": "A Fabric mod designed to improve the chunk performance of Minecraft.",
+      "categories": [
+        "optimization"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/c2me-fabric",
+      "appeared_in": [
+        "4.6"
+      ],
+      "first_version": "4.6",
+      "last_version": "4.6",
+      "in_latest": true
+    },
+    {
+      "project_id": "1IjD5062",
+      "slug": "continuity",
+      "title": "Continuity",
+      "description": "A Minecraft mod that allows for efficient connected textures",
+      "categories": [
+        "decoration",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/continuity",
+      "appeared_in": [
+        "4.6"
+      ],
+      "first_version": "4.6",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -788,10 +948,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -845,10 +1006,11 @@
       "project_type": "mod",
       "url": "https://modrinth.com/mod/minecraft-cursor",
       "appeared_in": [
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "4.5",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -945,6 +1107,25 @@
       "in_latest": false
     },
     {
+      "project_id": "9BgYgXE4",
+      "slug": "dis-enchanting-table",
+      "title": "Dis-Enchanting Table",
+      "description": "Recover enchantments from enchanted weapons or books!",
+      "categories": [
+        "adventure",
+        "equipment",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/dis-enchanting-table",
+      "appeared_in": [
+        "4.6"
+      ],
+      "first_version": "4.6",
+      "last_version": "4.6",
+      "in_latest": true
+    },
+    {
       "project_id": "tpehi7ww",
       "slug": "dungeons-and-taverns",
       "title": "Dungeons and Taverns",
@@ -967,10 +1148,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.2",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -990,10 +1172,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "4.0",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -1014,10 +1197,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "4.0",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -1039,10 +1223,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.2",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -1069,10 +1254,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -1098,10 +1284,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -1120,10 +1307,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "4.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -1149,6 +1337,24 @@
       "first_version": "2.1",
       "last_version": "3.4",
       "in_latest": false
+    },
+    {
+      "project_id": "fRiHVvU7",
+      "slug": "emi",
+      "title": "EMI",
+      "description": "A featureful and accessible item and recipe viewer",
+      "categories": [
+        "library",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/emi",
+      "appeared_in": [
+        "4.6"
+      ],
+      "first_version": "4.6",
+      "last_version": "4.6",
+      "in_latest": true
     },
     {
       "project_id": "ZJTGwAND",
@@ -1207,6 +1413,24 @@
       "in_latest": false
     },
     {
+      "project_id": "OVuFYfre",
+      "slug": "ebe",
+      "title": "Enhanced Block Entities",
+      "description": "Reduce block entity FPS lag with almost no compromises, and improve their visuals",
+      "categories": [
+        "optimization",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/ebe",
+      "appeared_in": [
+        "4.6"
+      ],
+      "first_version": "4.6",
+      "last_version": "4.6",
+      "in_latest": true
+    },
+    {
       "project_id": "U5SedJ9S",
       "slug": "enhanced-boss-bars",
       "title": "Enhanced Boss Bars",
@@ -1249,10 +1473,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -1297,7 +1522,7 @@
       ],
       "first_version": "4.0",
       "last_version": "4.5",
-      "in_latest": true
+      "in_latest": false
     },
     {
       "project_id": "RV1qfVQ8",
@@ -1325,7 +1550,7 @@
       ],
       "first_version": "3.1",
       "last_version": "4.5",
-      "in_latest": true
+      "in_latest": false
     },
     {
       "project_id": "HSfsxuTo",
@@ -1374,10 +1599,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -1403,10 +1629,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -1434,7 +1661,7 @@
       ],
       "first_version": "3.0",
       "last_version": "4.5",
-      "in_latest": true
+      "in_latest": false
     },
     {
       "project_id": "eUziWqPC",
@@ -1454,7 +1681,7 @@
       ],
       "first_version": "4.4",
       "last_version": "4.5",
-      "in_latest": true
+      "in_latest": false
     },
     {
       "project_id": "OnlVIpq5",
@@ -1468,10 +1695,11 @@
       "project_type": "mod",
       "url": "https://modrinth.com/mod/zfastnoise",
       "appeared_in": [
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "4.5",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -1539,10 +1767,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -1568,10 +1797,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -1634,6 +1864,44 @@
       "in_latest": false
     },
     {
+      "project_id": "Aq4BlX86",
+      "slug": "fresh-environment",
+      "title": "Fresh Environment",
+      "description": "Subtle visual tweaks including better rain and snow, cloud variation and more",
+      "categories": [
+        "environment",
+        "tweaks",
+        "vanilla-like"
+      ],
+      "project_type": "resourcepack",
+      "url": "https://modrinth.com/resourcepack/fresh-environment",
+      "appeared_in": [
+        "4.6"
+      ],
+      "first_version": "4.6",
+      "last_version": "4.6",
+      "in_latest": true
+    },
+    {
+      "project_id": "p6DhaYT0",
+      "slug": "fresh-textures",
+      "title": "Fresh Textures",
+      "description": "Refresh your vanilla Minecraft gaming experience with new textures!",
+      "categories": [
+        "16x",
+        "environment",
+        "vanilla-like"
+      ],
+      "project_type": "resourcepack",
+      "url": "https://modrinth.com/resourcepack/fresh-textures",
+      "appeared_in": [
+        "4.6"
+      ],
+      "first_version": "4.6",
+      "last_version": "4.6",
+      "in_latest": true
+    },
+    {
       "project_id": "POQ2i9zu",
       "slug": "friends-and-foes",
       "title": "Friends&Foes (Fabric/Quilt)",
@@ -1658,10 +1926,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -1707,10 +1976,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "4.0",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -1730,10 +2000,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "4.0",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -1786,10 +2057,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -1833,10 +2105,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "3.0",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -1893,10 +2166,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -1941,6 +2215,23 @@
       "in_latest": false
     },
     {
+      "project_id": "Rm4OOdHd",
+      "slug": "hide-experimental-warning",
+      "title": "Hide Experimental Warning",
+      "description": "\u274c Hides the Experimental Settings Warning when trying to create or load a modded world.",
+      "categories": [
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/hide-experimental-warning",
+      "appeared_in": [
+        "4.6"
+      ],
+      "first_version": "4.6",
+      "last_version": "4.6",
+      "in_latest": true
+    },
+    {
       "project_id": "24CSPS1E",
       "slug": "horse-expert",
       "title": "Horse Expert",
@@ -1965,6 +2256,24 @@
       "in_latest": false
     },
     {
+      "project_id": "gHoB7SHO",
+      "slug": "treechop",
+      "title": "HT's TreeChop",
+      "description": "Take down trees chop-by-chop instead of block-by-block.",
+      "categories": [
+        "game-mechanics",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/treechop",
+      "appeared_in": [
+        "4.6"
+      ],
+      "first_version": "4.6",
+      "last_version": "4.6",
+      "in_latest": true
+    },
+    {
       "project_id": "5faXoLqX",
       "slug": "iceberg",
       "title": "Iceberg",
@@ -1986,10 +2295,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -2015,10 +2325,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "3.0",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -2044,10 +2355,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -2152,10 +2464,11 @@
       "appeared_in": [
         "2.2",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.2",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -2240,10 +2553,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -2257,10 +2571,11 @@
       "project_type": "mod",
       "url": "https://modrinth.com/mod/ixeris",
       "appeared_in": [
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "4.5",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -2286,7 +2601,7 @@
       ],
       "first_version": "2.1",
       "last_version": "4.5",
-      "in_latest": true
+      "in_latest": false
     },
     {
       "project_id": "edU0NbZZ",
@@ -2304,10 +2619,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "4.0",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -2323,10 +2639,11 @@
       "url": "https://modrinth.com/mod/forcecloseworldloadingscreen",
       "appeared_in": [
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "4.4",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -2419,6 +2736,24 @@
       "in_latest": false
     },
     {
+      "project_id": "JrrZfsph",
+      "slug": "lightweight-inventory-sorting",
+      "title": "Lightweight Inventory Sorting",
+      "description": "Lightweight client-side inventory sorting with no extra fluff",
+      "categories": [
+        "storage",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/lightweight-inventory-sorting",
+      "appeared_in": [
+        "4.6"
+      ],
+      "first_version": "4.6",
+      "last_version": "4.6",
+      "in_latest": true
+    },
+    {
       "project_id": "piqpXT8s",
       "slug": "lios-overhauled-villages",
       "title": "Lios Overhauled Villages",
@@ -2434,10 +2769,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "4.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -2463,10 +2799,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -2487,10 +2824,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "4.0",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -2576,7 +2914,7 @@
       ],
       "first_version": "4.5",
       "last_version": "4.5",
-      "in_latest": true
+      "in_latest": false
     },
     {
       "project_id": "NRjRiSSD",
@@ -2665,10 +3003,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -2711,10 +3050,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -2736,10 +3076,28 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
+      "in_latest": true
+    },
+    {
+      "project_id": "9leXt4A5",
+      "slug": "monolib",
+      "title": "MonoLib",
+      "description": "A non-invasive library mod for Fabric, Forge, and NeoForge.",
+      "categories": [
+        "library"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/monolib",
+      "appeared_in": [
+        "4.6"
+      ],
+      "first_version": "4.6",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -2765,10 +3123,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -2795,10 +3154,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -2825,6 +3185,40 @@
       "first_version": "2.1",
       "last_version": "3.4",
       "in_latest": false
+    },
+    {
+      "project_id": "z7WhFkyW",
+      "slug": "moyai",
+      "title": "Moyai",
+      "description": "Adds naturally spawning Moyai to your game \ud83d\uddff",
+      "categories": [
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/moyai",
+      "appeared_in": [
+        "4.6"
+      ],
+      "first_version": "4.6",
+      "last_version": "4.6",
+      "in_latest": true
+    },
+    {
+      "project_id": "SNVQ2c0g",
+      "slug": "mru",
+      "title": "MRU",
+      "description": "A library mod used by Cassian and IMB11's mods to function.",
+      "categories": [
+        "library"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/mru",
+      "appeared_in": [
+        "4.6"
+      ],
+      "first_version": "4.6",
+      "last_version": "4.6",
+      "in_latest": true
     },
     {
       "project_id": "A4YQgwzz",
@@ -2909,7 +3303,7 @@
       ],
       "first_version": "4.0",
       "last_version": "4.5",
-      "in_latest": true
+      "in_latest": false
     },
     {
       "project_id": "bAWzYNRd",
@@ -2939,6 +3333,44 @@
       ],
       "first_version": "2.1",
       "last_version": "4.5",
+      "in_latest": false
+    },
+    {
+      "project_id": "ERH7cFoy",
+      "slug": "mythic-upgrades",
+      "title": "Mythic Upgrades",
+      "description": "Mythic Upgrades adds new mythic crystals & gems to the game! Explore new cave biomes, upgrade your netherite gear or brew new potions!",
+      "categories": [
+        "adventure",
+        "equipment",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/mythic-upgrades",
+      "appeared_in": [
+        "4.6"
+      ],
+      "first_version": "4.6",
+      "last_version": "4.6",
+      "in_latest": true
+    },
+    {
+      "project_id": "fPetb5Kh",
+      "slug": "natures-compass",
+      "title": "Nature's Compass",
+      "description": "Allows you to locate biomes anywhere in the world.",
+      "categories": [
+        "adventure",
+        "equipment",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/natures-compass",
+      "appeared_in": [
+        "4.6"
+      ],
+      "first_version": "4.6",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -2980,10 +3412,29 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "4.0",
-      "last_version": "4.5",
+      "last_version": "4.6",
+      "in_latest": true
+    },
+    {
+      "project_id": "bQh7xzFq",
+      "slug": "notenoughrecipebook",
+      "title": "Not Enough Recipe Book [NERB]",
+      "description": "Completely removes recipe book from the game, optimizing player data.",
+      "categories": [
+        "optimization",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/notenoughrecipebook",
+      "appeared_in": [
+        "4.6"
+      ],
+      "first_version": "4.6",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -3042,10 +3493,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "4.0",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -3093,6 +3545,23 @@
       "in_latest": false
     },
     {
+      "project_id": "1PGegzf5",
+      "slug": "overlays",
+      "title": "Overlay\u2019s",
+      "description": "The #1 Overlays Resource Pack!",
+      "categories": [
+        "blocks"
+      ],
+      "project_type": "resourcepack",
+      "url": "https://modrinth.com/resourcepack/overlays",
+      "appeared_in": [
+        "4.6"
+      ],
+      "first_version": "4.6",
+      "last_version": "4.6",
+      "in_latest": true
+    },
+    {
       "project_id": "ccKDOlHs",
       "slug": "owo-lib",
       "title": "o\u03c9o (owo-lib)",
@@ -3115,10 +3584,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -3164,6 +3634,42 @@
       "in_latest": false
     },
     {
+      "project_id": "RSeLon5O",
+      "slug": "particle-core",
+      "title": "Particle Core",
+      "description": "Particle optimizations: Culling, rendering optimizations, configurable particle-type-specific spawn reduction, and potion particle disabling. Compatible with Sodium, improves performance over Sodium alone.",
+      "categories": [
+        "game-mechanics",
+        "optimization",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/particle-core",
+      "appeared_in": [
+        "4.6"
+      ],
+      "first_version": "4.6",
+      "last_version": "4.6",
+      "in_latest": true
+    },
+    {
+      "project_id": "pYFUU6cq",
+      "slug": "particular-reforged",
+      "title": "Particular \u2728 Reforged",
+      "description": "Particular is a mod that enhances Minecraft's ambience with many hand-crafted visual effects.",
+      "categories": [
+        "game-mechanics"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/particular-reforged",
+      "appeared_in": [
+        "4.6"
+      ],
+      "first_version": "4.6",
+      "last_version": "4.6",
+      "in_latest": true
+    },
+    {
       "project_id": "ZX66K16c",
       "slug": "pick-up-notifier",
       "title": "Pick Up Notifier",
@@ -3174,10 +3680,11 @@
       "project_type": "mod",
       "url": "https://modrinth.com/mod/pick-up-notifier",
       "appeared_in": [
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "4.5",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -3223,10 +3730,26 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "3.0",
-      "last_version": "4.5",
+      "last_version": "4.6",
+      "in_latest": true
+    },
+    {
+      "project_id": "3qAYkBMB",
+      "slug": "polytone",
+      "title": "Polytone",
+      "description": "Customize Map Color, Block Colors, Colormaps and Block Sounds, Biome Colors, Dye Colors. Supports Optifine format. For Resource Packs",
+      "categories": [],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/polytone",
+      "appeared_in": [
+        "4.6"
+      ],
+      "first_version": "4.6",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -3252,10 +3775,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -3285,7 +3809,7 @@
       ],
       "first_version": "3.0",
       "last_version": "4.5",
-      "in_latest": true
+      "in_latest": false
     },
     {
       "project_id": "AOyJhFvl",
@@ -3324,10 +3848,11 @@
       "project_type": "mod",
       "url": "https://modrinth.com/mod/puzzle",
       "appeared_in": [
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "4.5",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -3353,10 +3878,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -3456,10 +3982,11 @@
         "3.2",
         "3.3",
         "3.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -3485,10 +4012,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -3513,7 +4041,7 @@
       ],
       "first_version": "4.0",
       "last_version": "4.5",
-      "in_latest": true
+      "in_latest": false
     },
     {
       "project_id": "nfn13YXA",
@@ -3558,6 +4086,21 @@
       "in_latest": false
     },
     {
+      "project_id": "WRaRZdTd",
+      "slug": "universal-sawmill",
+      "title": "Sawmill",
+      "description": "Ultimate Woodcutter. As it was intented, compatible with any mod, automatically. Includes Carpenter Villager",
+      "categories": [],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/universal-sawmill",
+      "appeared_in": [
+        "4.6"
+      ],
+      "first_version": "4.6",
+      "last_version": "4.6",
+      "in_latest": true
+    },
+    {
       "project_id": "Ps1zyz6x",
       "slug": "scalablelux",
       "title": "ScalableLux",
@@ -3569,10 +4112,46 @@
       "url": "https://modrinth.com/mod/scalablelux",
       "appeared_in": [
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "4.4",
-      "last_version": "4.5",
+      "last_version": "4.6",
+      "in_latest": true
+    },
+    {
+      "project_id": "4WWQxlQP",
+      "slug": "servercore",
+      "title": "ServerCore",
+      "description": "A mod that aims to optimize the minecraft server.",
+      "categories": [
+        "optimization",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/servercore",
+      "appeared_in": [
+        "4.6"
+      ],
+      "first_version": "4.6",
+      "last_version": "4.6",
+      "in_latest": true
+    },
+    {
+      "project_id": "RH2KUdKJ",
+      "slug": "shatterbyte-lib",
+      "title": "ShatterLib | OctoLib",
+      "description": "Collection of shared code for OctoStudios' mods",
+      "categories": [
+        "library"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/shatterbyte-lib",
+      "appeared_in": [
+        "4.6"
+      ],
+      "first_version": "4.6",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -3590,7 +4169,7 @@
       ],
       "first_version": "4.5",
       "last_version": "4.5",
-      "in_latest": true
+      "in_latest": false
     },
     {
       "project_id": "ti9KkMHm",
@@ -3605,10 +4184,11 @@
       "project_type": "resourcepack",
       "url": "https://modrinth.com/resourcepack/simple-grass-flowers",
       "appeared_in": [
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "4.5",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -3648,10 +4228,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "4.0",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -3666,10 +4247,11 @@
       "project_type": "mod",
       "url": "https://modrinth.com/mod/simply-tooltips",
       "appeared_in": [
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "4.5",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -3685,10 +4267,28 @@
       "project_type": "mod",
       "url": "https://modrinth.com/mod/smooth-scroll",
       "appeared_in": [
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "4.5",
-      "last_version": "4.5",
+      "last_version": "4.6",
+      "in_latest": true
+    },
+    {
+      "project_id": "uvlgIwBD",
+      "slug": "smooth-skies",
+      "title": "Smooth Skies",
+      "description": "Smooths out the skybox colors on far render distances and fixes some other skybox visual issues.",
+      "categories": [
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/smooth-skies",
+      "appeared_in": [
+        "4.6"
+      ],
+      "first_version": "4.6",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -3713,10 +4313,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -3743,10 +4344,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -3766,7 +4368,7 @@
       ],
       "first_version": "4.5",
       "last_version": "4.5",
-      "in_latest": true
+      "in_latest": false
     },
     {
       "project_id": "ouNrBQtq",
@@ -3785,10 +4387,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "4.0",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -3807,10 +4410,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "4.0",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -3831,6 +4435,60 @@
       "first_version": "2.1",
       "last_version": "2.2",
       "in_latest": false
+    },
+    {
+      "project_id": "ZouiUX7t",
+      "slug": "sound",
+      "title": "Sounds",
+      "description": "It's what it says on the tin. A complete upgrade to Minecraft's SFX with over 170 new sound effects for UIs, items, blocks and more.",
+      "categories": [
+        "game-mechanics",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/sound",
+      "appeared_in": [
+        "4.6"
+      ],
+      "first_version": "4.6",
+      "last_version": "4.6",
+      "in_latest": true
+    },
+    {
+      "project_id": "l6YH9Als",
+      "slug": "spark",
+      "title": "spark",
+      "description": "spark is a performance profiler for Minecraft clients, servers and proxies.",
+      "categories": [
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/spark",
+      "appeared_in": [
+        "4.6"
+      ],
+      "first_version": "4.6",
+      "last_version": "4.6",
+      "in_latest": true
+    },
+    {
+      "project_id": "qwvI41y9",
+      "slug": "sparsestructures",
+      "title": "Sparse Structures",
+      "description": "A simple and configurable mod that makes all (even datapacks and modded) structures more spread out (or more common!), essentially making them rarer/easier to find. Useful in big modpacks with a lot of structures mods to encourage exploration",
+      "categories": [
+        "adventure",
+        "utility",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/sparsestructures",
+      "appeared_in": [
+        "4.6"
+      ],
+      "first_version": "4.6",
+      "last_version": "4.6",
+      "in_latest": true
     },
     {
       "project_id": "XvoWJaA2",
@@ -3882,6 +4540,25 @@
       "in_latest": false
     },
     {
+      "project_id": "krskFMfA",
+      "slug": "spelunkery",
+      "title": "Spelunkery",
+      "description": "A cave overhaul mod with new cave variations, tool progression, and mining strategies to spice up your underground life.",
+      "categories": [
+        "adventure",
+        "equipment",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/spelunkery",
+      "appeared_in": [
+        "4.6"
+      ],
+      "first_version": "4.6",
+      "last_version": "4.6",
+      "in_latest": true
+    },
+    {
       "project_id": "HtGckJVc",
       "slug": "stack-to-nearby-chests",
       "title": "Stack to Nearby Chests",
@@ -3902,6 +4579,23 @@
       ],
       "first_version": "4.0",
       "last_version": "4.5",
+      "in_latest": false
+    },
+    {
+      "project_id": "FzyTKtVF",
+      "slug": "stoneworks",
+      "title": "Stoneworks",
+      "description": "Vanilla stone types in plenty of variations for all your building needs.",
+      "categories": [
+        "decoration"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/stoneworks",
+      "appeared_in": [
+        "4.6"
+      ],
+      "first_version": "4.6",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -3915,10 +4609,11 @@
       "project_type": "mod",
       "url": "https://modrinth.com/mod/structure-layout-optimizer",
       "appeared_in": [
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "4.5",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -3962,10 +4657,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "4.0",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -3983,10 +4679,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "4.2",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -4005,10 +4702,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "4.2",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -4050,6 +4748,24 @@
       "in_latest": false
     },
     {
+      "project_id": "kkmrDlKT",
+      "slug": "terrablender",
+      "title": "TerraBlender",
+      "description": "A library mod for adding biomes in a simple and compatible manner!",
+      "categories": [
+        "library",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/terrablender",
+      "appeared_in": [
+        "4.6"
+      ],
+      "first_version": "4.6",
+      "last_version": "4.6",
+      "in_latest": true
+    },
+    {
       "project_id": "eXts2L7r",
       "slug": "placeholder-api",
       "title": "Text Placeholder API",
@@ -4064,7 +4780,7 @@
       ],
       "first_version": "4.5",
       "last_version": "4.5",
-      "in_latest": true
+      "in_latest": false
     },
     {
       "project_id": "9TbXlAut",
@@ -4082,10 +4798,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "4.0",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -4106,11 +4823,12 @@
         "3.1",
         "3.2",
         "3.3",
-        "3.4"
+        "3.4",
+        "4.6"
       ],
       "first_version": "2.1",
-      "last_version": "3.4",
-      "in_latest": false
+      "last_version": "4.6",
+      "in_latest": true
     },
     {
       "project_id": "8pcjMDgj",
@@ -4189,10 +4907,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "4.2",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -4208,10 +4927,30 @@
       "url": "https://modrinth.com/mod/trek",
       "appeared_in": [
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "4.4",
-      "last_version": "4.5",
+      "last_version": "4.6",
+      "in_latest": true
+    },
+    {
+      "project_id": "BL7ADJ7w",
+      "slug": "trimseffects",
+      "title": "TrimsEffects",
+      "description": "The objective of this mod is none other than to expand the world of trims added by Mojang in the latest versions, since now, each of them will be able to grant an effect.",
+      "categories": [
+        "equipment",
+        "game-mechanics",
+        "utility"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/trimseffects",
+      "appeared_in": [
+        "4.6"
+      ],
+      "first_version": "4.6",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -4239,10 +4978,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -4268,10 +5008,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -4355,6 +5096,25 @@
       "in_latest": false
     },
     {
+      "project_id": "lNDRiXkY",
+      "slug": "variants-and-ventures",
+      "title": "Variants&Ventures",
+      "description": "Adds multiple new mob variants seamlessly integrated into your Minecraft world.",
+      "categories": [
+        "adventure",
+        "mobs",
+        "worldgen"
+      ],
+      "project_type": "mod",
+      "url": "https://modrinth.com/mod/variants-and-ventures",
+      "appeared_in": [
+        "4.6"
+      ],
+      "first_version": "4.6",
+      "last_version": "4.6",
+      "in_latest": true
+    },
+    {
       "project_id": "Z6cnZeGU",
       "slug": "visual-travelers-titles",
       "title": "Visual Traveler's Titles",
@@ -4371,7 +5131,7 @@
       ],
       "first_version": "4.5",
       "last_version": "4.5",
-      "in_latest": true
+      "in_latest": false
     },
     {
       "project_id": "kfqD1JRw",
@@ -4396,10 +5156,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -4536,10 +5297,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -4564,7 +5326,7 @@
       ],
       "first_version": "4.0",
       "last_version": "4.5",
-      "in_latest": true
+      "in_latest": false
     },
     {
       "project_id": "1eAoo2KR",
@@ -4591,10 +5353,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -4635,10 +5398,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.2",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -4696,10 +5460,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "4.1",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -4740,10 +5505,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.2",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {
@@ -4765,10 +5531,11 @@
         "4.2",
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "4.6"
       ],
       "first_version": "2.2",
-      "last_version": "4.5",
+      "last_version": "4.6",
       "in_latest": true
     },
     {

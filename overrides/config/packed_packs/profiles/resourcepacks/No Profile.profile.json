@@ -1,0 +1,22 @@
+{
+  "locked": false,
+  "name": "Modpack\u0027s Default",
+  "overrides": {},
+  "packIds": [
+    "file/§3Fresh §bEnvironment.zip",
+    "file/§aBiomeBloom§8.zip",
+    "continuity:default",
+    "continuity:glass_pane_culling_fix",
+    "file/Ashen_Custom_Font.zip",
+    "easyanvils:default_block_models",
+    "visualworkbench:default_block_models",
+    "file/Adventure Panorama.zip",
+    "file/[FV] Loading Screen.zip",
+    "file/UniqueDark 1.20.2-1.21.x (Edited)v2.4.zip",
+    "file/§eTruly-Vanilla§8-[1.21+]v2.3.zip",
+    "moonlight:merged_pack",
+    "file/Simple Grass Flowers v1.9.6.zip",
+    "fabric",
+    "vanilla"
+  ]
+}

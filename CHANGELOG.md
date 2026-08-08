@@ -2,6 +2,55 @@
 
 Auto-generated from the Modrinth version history. Do not hand-edit; this file is refreshed automatically (see .github/workflows/sync-modrinth.yml).
 
+## 4.6 (2026-08-08)
+
+- Minecraft: 1.21.1 | Loaders: fabric | Type: release
+
+## Overview / Highlights: [FV 4.6]
+Continuing the needed refinement to make the modpack as perfect as possible! This update focuses heavily on game mechanics, performance overhauls, and deep immersion features—including a brand-new cave overhaul and tree-chopping physics. 
+_**See the full changelog below!**_
+
+**other:**
+- updated config
+- updated mods
+- updated resourcepack list
+- **NOTE:** this version is NOT compatible with "v4.5 worlds",(Reason: **Spelunkery** adds to world-gen, REMOVED **Starlight** dimension, **Mythic metals** the ores mod replaced).
+---
+### + Added:
+- **Polytone** - adds extra resource pack capabilities.
+- **C2ME** - chunk performance and generation optimizer.
+- **sounds** - extra & better sounds for the game.
+- **Hide experimental warning** - cleans up the loading screens.
+- **servercore** - performance mod.
+- **Spelunkery** - a cave overhaul mod.
+- **HT's Treechop** - take down trees chop-by-chop instead of block-by-block.
+- **better world loading** - shows extra info while loading a world.
+- **dis-enchant table** - dis-enchant items and armor.
+- **Sawmill** - adds a stonecutter friend for wood variations.
+- **TrimsEffect** - each Trim now has special effects on the player!
+- **Variants&Ventures** - world variety and vanilla-plus additions.
+- **moyai** - well....
+- **Albridged** - adds naturally generated bridges around the world.
+- **Particle Core** - performance mod for Particles.
+- **[NERB]** - Removes recipe book completely improving loading times.
+- **Sparse Structures** manages structures positions better.
+---
+### ~ Replaced:
+- ~~jei~~ -> **emi** - a modern version of JEI with more features, also a replacement for mc recipe book.
+- ~~falling leaves & cave dust~~ -> **Particular reforged** - all-in-one particle system.
+- ~~stack to nearby containers~~ -> **Lightweight Inventory sorting** - cleaner inventory management.
+- ~~fancy toasts~~ -> **Advancement Plaque** simpler & more compatible.
+- ~~explorer compass~~ -> **Nature's Compass** instead of locating structures its Biomes!, locating structures felt way too op and didn't encourage exploring.
+- ~~Mythic Metals~~ -> **Mythic Upgrades** more stable and reformed ores mod
+---
+### - Removed:
+- ~~Ender Starlight~~ - too heavy and out of place and wasn't really matching the pack's vibe
+- ~~ribbits~~ 
+- ~~chat heads~~ 
+- ~~simple fog control~~ - already possible with sodium extra.
+- ~~mystical oak tree~~ 
+- ~~visual traveler titles~~ - worked only on vanilla biomes which meant inconsistent visuals
+
 ## 4.5 (2026-03-29)
 
 - Minecraft: 1.21.1 | Loaders: fabric | Type: release
