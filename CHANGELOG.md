@@ -33,7 +33,7 @@ _**See the full changelog below!**_
 - **Albridged** - adds naturally generated bridges around the world.
 - **Particle Core** - performance mod for Particles.
 - **[NERB]** - Removes recipe book completely improving loading times.
-- **Sparse Structures** manages structures positions better.
+- **Sparse Structures** - manages structures positions better.
 ---
 ### ~ Replaced:
 - ~~jei~~ -> **emi** - a modern version of JEI with more features, also a replacement for mc recipe book.
