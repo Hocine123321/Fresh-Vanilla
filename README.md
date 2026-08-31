@@ -75,8 +75,7 @@ commit.
 ## Links
 
 - Modrinth: https://modrinth.com/modpack/fresh_vanilla
-- Discord: https://discord.gg/aWS3tCQEgN
-- Issues: use this repo's [Issues](../../issues) tab or the Discord
+- Issues: use this repo's [Issues](../../issues) tab.
 
 ## License
 
